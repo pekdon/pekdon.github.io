@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on pekdon</title>
+    <link>https://pekdon.github.io/posts/</link>
+    <description>Recent content in Posts on pekdon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jan 2021 12:33:11 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pekwm Development Reboot</title>
+      <link>https://pekdon.github.io/posts/pekwm-development-reboot/</link>
+      <pubDate>Sun, 31 Jan 2021 12:33:11 +0100</pubDate>
+      
+      <guid>https://pekdon.github.io/posts/pekwm-development-reboot/</guid>
+      <description>The pekwm development has been non-existent the last couple of years and before that it has been very slow for many years. Many reasons behind this including but not limited to not using a Linux machine at work, life has been busy and a lack of interest.
+My interest has come back, I&amp;rsquo;ve gotten myself an &amp;ldquo;old&amp;rdquo; Lenovo T440S running OpenBSD at home and started working on pekwm again.
+To be able to spend more time on actual development and not maintain infrastructure and what-not there has been some changes:</description>
+    </item>
+    
+  </channel>
+</rss>
