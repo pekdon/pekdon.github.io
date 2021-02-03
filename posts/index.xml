@@ -6,9 +6,19 @@
     <description>Recent content in Posts on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2021 12:33:11 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 18:47:28 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pekwm Development Reboot</title>
+      <title>pekwm_theme utility</title>
+      <link>https://pekdon.github.io/posts/pekwm_theme-utility/</link>
+      <pubDate>Wed, 03 Feb 2021 18:47:28 +0100</pubDate>
+      
+      <guid>https://pekdon.github.io/posts/pekwm_theme-utility/</guid>
+      <description>As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
+ pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes.</description>
+    </item>
+    
+    <item>
+      <title>pekwm development reboot</title>
       <link>https://pekdon.github.io/posts/pekwm-development-reboot/</link>
       <pubDate>Sun, 31 Jan 2021 12:33:11 +0100</pubDate>
       

@@ -10,7 +10,8 @@
 
 
 
-    <meta name="description" content="pekdon">
+    <meta name="description" content="As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
+ pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes.">
 
 
 
@@ -22,7 +23,7 @@
     
 
 
-    <title>Tags | pekdon</title>
+    <title>pekwm_theme utility | pekdon</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -30,15 +31,18 @@
 
     
 
-    <meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://pekdon.github.io/tags/" />
-<meta property="og:updated_time" content="2021-02-03T18:47:28+01:00" />
+    <meta property="og:title" content="pekwm_theme utility" />
+<meta property="og:description" content="As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
+ pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pekdon.github.io/posts/pekwm_theme-utility/" />
+<meta property="article:published_time" content="2021-02-03T18:47:28+01:00" />
+<meta property="article:modified_time" content="2021-02-03T18:47:28+01:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="pekwm_theme utility"/>
+<meta name="twitter:description" content="As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
+ pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes."/>
 
 
     <link rel="preload" as="font" href="/fonts/Metropolis.woff2" type="font/woff2" crossorigin="anonymous">
@@ -67,6 +71,49 @@
 <!-- Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog -->
 
     
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "pekwm_theme utility",
+    "headline": "pekwm_theme utility",
+    "alternativeHeadline": "",
+    "description": "As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:\n pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https:\/\/www.pekwm.se\/themes\/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes.",
+    "inLanguage": "en",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/pekdon.github.io\/posts\/pekwm_theme-utility\/"
+    },
+    "author" : [
+    ],
+    "copyrightHolder" : "pekdon",
+    "copyrightYear" : "2021",
+    "dateCreated": "2021-02-03T18:47:28.00Z",
+    "datePublished": "2021-02-03T18:47:28.00Z",
+    "dateModified": "2021-02-03T18:47:28.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "pekdon",
+        "url": "https://pekdon.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/pekdon.github.io\/brand.svg",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "url" : "https:\/\/pekdon.github.io\/posts\/pekwm_theme-utility\/",
+    "wordCount" : "268",
+    "genre" : [ "pekwm" ]
+}
+</script>
+
 
 </head>
 
@@ -112,23 +159,78 @@
 
         <main class="gblog-page container">
             
-    
-    
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            
+            
+
+            <h1>pekwm_theme utility</h1>
+            
+            <div class="gblog-post__meta">
+                <span class="no-wrap">
+                    <svg class="icon date"><use xlink:href="#date"></use></svg>
+                    <span class="gblog-post__tag">
+                        <time datetime="2021-02-03T18:47:28&#43;01:00">
+                            
+                            Feb 3, 2021
+                        </time>
+                    </span>
+                </span>
+
+                <span class="no-wrap">
+                    <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                    <span class="gblog-post__tag">2 min read</span>
+                </span>
+            </div>
+            
+        </header>
+
+        <section class="gblog-markdown">
+            
+
+
 
     
-    
-    
 
-<nav class="gblog-paging flex flex-even align-center" role="navigation">
-    <div class="gblog-paging__item gblog-paging__item--prev">
-    
-    </div>
-    <div class="gblog-paging__state">Page 1 of 0</div>
-    <div class="gblog-paging__item gblog-paging__item--next">
-    
-    </div>
-</nav>
 
+<p>As part of getting pekwm back on track the infrastructure for a theme
+index has started to take shape with the following components:</p>
+<ol>
+<li><a href="https://github.com/pekwm/pekwm-theme-index/">pekwm-theme-index</a>, a repository on GitHub with a collection of theme files containing meta-data about themes.</li>
+<li><strong>pekwm-theme-page</strong>, the page and screenshot generator for <a href="https://www.pekwm.se/themes/">https://www.pekwm.se/themes/</a> based on the data from pekwm-theme-index.</li>
+<li><strong>pekwm_theme</strong>, shell script included with pekwm for managing user themes.</li>
+</ol>
+<p>This post focus on the last component in the list above, the user
+command for managing themes.</p>
+<p>The idea behind this tool started from discussions in the #pekwm
+channel on freenode, where the idea behind the search and show
+functions came to existence.</p>
+<p>Fueled with energy from my dislike of the current state of the *-look
+series of sites with the ads, cryptic filenames and broken links I
+hacked up a first version of the pekwm_theme command during a longer
+than usual morning coffee session.</p>
+<p>The command have the following external dependencies:</p>
+<ul>
+<li>curl, wget or ftp (on BSD) for fetching the theme index.</li>
+<li>git for fetching themes.</li>
+<li>awk, grep and sed for theme index handling.</li>
+</ul>
+<p>In addition the command use another new pekwm utility, ekwm_dialog
+inspired by the xmessage command which I will write more about in
+another post.</p>
+<p>Here is a screenshot of the pekwm_theme utility in action with a
+preview of the <a href="https://www.pekwm.se/themes/m0nst4.html">m0nst4</a> theme
+shown in pekwm_dialog:</p>
+<p><img src="/images/posts/pekwm_theme-utility-1.png" alt="pekwm_theme in action"></p>
+<p>Pressing install will fetch and activate the theme, activation use the
+pekwm_themeset.sh script that drives the Theme menu.</p>
+<p>If you feel brave (or not so brave), fetch pekwm from git and try it
+out. If you have any issues, report them on Github or #pekwm on
+freenode!</p>
+
+
+        </section>
+    </article>
 
         </main>
 
