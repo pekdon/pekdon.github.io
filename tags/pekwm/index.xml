@@ -6,7 +6,18 @@
     <description>Recent content in pekwm on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 18:47:28 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/tags/pekwm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 21:40:39 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/tags/pekwm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0.2.0 theme updates</title>
+      <link>https://pekdon.github.io/posts/0.2.0-theme-updates/</link>
+      <pubDate>Tue, 09 Feb 2021 21:40:39 +0100</pubDate>
+      
+      <guid>https://pekdon.github.io/posts/0.2.0-theme-updates/</guid>
+      <description>pekwm-0.2.0 will bring a couple of noticeable improvements to the theme system including:
+ Backgrounds ColorMaps Variants  This post will describe what these features do and how to use them.
+Backgrounds It is now possible to set the background with the theme using the new Background section in the theme file. All pekwm textures are supported including the new LinesVert and LinesHorz textures. For a full list of textures, see the themes documentation.</description>
+    </item>
+    
     <item>
       <title>pekwm_theme utility</title>
       <link>https://pekdon.github.io/posts/pekwm_theme-utility/</link>
