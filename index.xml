@@ -6,7 +6,17 @@
     <description>Recent content on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 21:40:39 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 21:37:40 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pekwm_panel in the works!</title>
+      <link>https://pekdon.github.io/posts/pekwm_panel/</link>
+      <pubDate>Tue, 23 Feb 2021 21:37:40 +0100</pubDate>
+      
+      <guid>https://pekdon.github.io/posts/pekwm_panel/</guid>
+      <description>After rebooting the pekwm development, the activity from users on Github page has increased and in one of the recent issues a comment was added noting that it was hard to know iconified windows exist.
+The seasoned users know of the Icon menu, however, as a new pekwm user it is less than obvious how one should know the iconfied windows exist. As it was noted this was not a problem in other environments where a panel is available listing all clients I decided to create a pekwm_panel.</description>
+    </item>
+    
     <item>
       <title>0.2.0 theme updates</title>
       <link>https://pekdon.github.io/posts/0.2.0-theme-updates/</link>
