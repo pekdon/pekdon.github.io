@@ -10,7 +10,8 @@
 
 
 
-    <meta name="description" content="pekdon">
+    <meta name="description" content="My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
+Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C&#43;&#43;11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11.">
 
 
 
@@ -22,7 +23,7 @@
     
 
 
-    <title>Tags | pekdon</title>
+    <title>Compile times, GCC 4.8 | pekdon</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -30,15 +31,18 @@
 
     
 
-    <meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://pekdon.github.io/tags/" />
-<meta property="og:updated_time" content="2021-03-13T22:26:42+01:00" />
+    <meta property="og:title" content="Compile times, GCC 4.8" />
+<meta property="og:description" content="My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
+Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C&#43;&#43;11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pekdon.github.io/posts/compile_times-gcc-4.8/" />
+<meta property="article:published_time" content="2021-03-13T22:26:42+01:00" />
+<meta property="article:modified_time" content="2021-03-13T22:26:42+01:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Compile times, GCC 4.8"/>
+<meta name="twitter:description" content="My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
+Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C&#43;&#43;11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11."/>
 
 
     <link rel="preload" as="font" href="/fonts/Metropolis.woff2" type="font/woff2" crossorigin="anonymous">
@@ -67,6 +71,49 @@
 <!-- Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog -->
 
     
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "Compile times, GCC 4.8",
+    "headline": "Compile times, GCC 4.8",
+    "alternativeHeadline": "",
+    "description": "My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.\nMoving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C\u002b\u002b11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11.",
+    "inLanguage": "en",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/pekdon.github.io\/posts\/compile_times-gcc-4.8\/"
+    },
+    "author" : [
+    ],
+    "copyrightHolder" : "pekdon",
+    "copyrightYear" : "2021",
+    "dateCreated": "2021-03-13T22:26:42.00Z",
+    "datePublished": "2021-03-13T22:26:42.00Z",
+    "dateModified": "2021-03-13T22:26:42.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "pekdon",
+        "url": "https://pekdon.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/pekdon.github.io\/brand.svg",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "url" : "https:\/\/pekdon.github.io\/posts\/compile_times-gcc-4.8\/",
+    "wordCount" : "264",
+    "genre" : [ "pekwm" ]
+}
+</script>
+
 
 </head>
 
@@ -112,23 +159,82 @@
 
         <main class="gblog-page container">
             
-    
-    
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            
+            
+
+            <h1>Compile times, GCC 4.8</h1>
+            
+            <div class="gblog-post__meta">
+                <span class="no-wrap">
+                    <svg class="icon date"><use xlink:href="#date"></use></svg>
+                    <span class="gblog-post__tag">
+                        <time datetime="2021-03-13T22:26:42&#43;01:00">
+                            
+                            Mar 13, 2021
+                        </time>
+                    </span>
+                </span>
+
+                <span class="no-wrap">
+                    <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                    <span class="gblog-post__tag">2 min read</span>
+                </span>
+            </div>
+            
+        </header>
+
+        <section class="gblog-markdown">
+            
+
+
 
     
-    
-    
 
-<nav class="gblog-paging flex flex-even align-center" role="navigation">
-    <div class="gblog-paging__item gblog-paging__item--prev">
-    
-    </div>
-    <div class="gblog-paging__state">Page 1 of 0</div>
-    <div class="gblog-paging__item gblog-paging__item--next">
-    
-    </div>
-</nav>
 
+<p>My main development machine at the moment is a ~7 year old Lenovo
+T440s laptop which is more than snappy enough for my needs but it is
+starting to show its age when it comes to some of the more javascript
+intensive web sites and when compiling software.</p>
+<p>Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that
+GCC-4.8 was available. Given that GCC 4.8 being the first GCC release
+stating support for most major features of C++11 I thought it was
+worth giving it a go to see how the compile times compare with the
+system compiler, clang 11.</p>
+<p>pekwm did require some added compatability code for <em>std::put_time</em>,
+<em>std::stoi</em>, <em>std::stof</em> and <em>std::to_string</em> which all are C++11 but
+unavailable using GCC-4.8.5 part of FreeBSD.</p>
+<p>The older compiler is indeed a lot faster than current clang (and
+current GCC, no numbers included).</p>
+<p>The unscientific numbers for a full build of pekwm including the test
+applications:</p>
+<pre><code>make, clang 11.0.1
+
+      104.30 real       100.31 user         4.48 sys
+
+make -j4, clang 11.0.1
+
+       48.90 real       174.34 user         6.45 sys
+
+make, gcc 4.8.5
+
+       63.82 real        57.55 user         5.89 sys
+
+make -j4, gcc 4.8.5
+
+       29.51 real       100.03 user         8.63 sys
+</code></pre><p>Disregarding the absolute numbers there&rsquo;s quite a bit of time to save
+during development having almost twice as fast compile times. The
+generated binaries probably are slower assuming optimizers have become
+better over the years but looking at this from the developers point of
+view it might actully be worth using older compilers during part of
+the development cycle to avoid spending time waiting for the compiler
+to finish.</p>
+
+
+        </section>
+    </article>
 
         </main>
 

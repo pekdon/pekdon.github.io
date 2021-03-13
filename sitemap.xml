@@ -3,27 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pekdon.github.io/posts/compile_times-gcc-4.8/</loc>
+    <lastmod>2021-03-13T22:26:42+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pekdon.github.io/</loc>
-    <lastmod>2021-02-23T21:37:40+01:00</lastmod>
+    <lastmod>2021-03-13T22:26:42+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://pekdon.github.io/tags/pekwm/</loc>
-    <lastmod>2021-02-23T21:37:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pekdon.github.io/posts/pekwm_panel/</loc>
-    <lastmod>2021-02-23T21:37:40+01:00</lastmod>
+    <lastmod>2021-03-13T22:26:42+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://pekdon.github.io/posts/</loc>
-    <lastmod>2021-02-23T21:37:40+01:00</lastmod>
+    <lastmod>2021-03-13T22:26:42+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://pekdon.github.io/tags/</loc>
+    <lastmod>2021-03-13T22:26:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pekdon.github.io/posts/pekwm_panel/</loc>
     <lastmod>2021-02-23T21:37:40+01:00</lastmod>
   </url>
   

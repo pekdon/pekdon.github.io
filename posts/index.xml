@@ -6,7 +6,17 @@
     <description>Recent content in Posts on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Feb 2021 21:37:40 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Mar 2021 22:26:42 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compile times, GCC 4.8</title>
+      <link>https://pekdon.github.io/posts/compile_times-gcc-4.8/</link>
+      <pubDate>Sat, 13 Mar 2021 22:26:42 +0100</pubDate>
+      
+      <guid>https://pekdon.github.io/posts/compile_times-gcc-4.8/</guid>
+      <description>My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
+Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C++11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11.</description>
+    </item>
+    
     <item>
       <title>pekwm_panel in the works!</title>
       <link>https://pekdon.github.io/posts/pekwm_panel/</link>
