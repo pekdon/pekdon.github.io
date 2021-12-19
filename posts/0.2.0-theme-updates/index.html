@@ -37,9 +37,10 @@ Backgrounds It is now possible to set the background with the theme using the ne
  Backgrounds ColorMaps Variants  This post will describe what these features do and how to use them.
 Backgrounds It is now possible to set the background with the theme using the new Background section in the theme file. All pekwm textures are supported including the new LinesVert and LinesHorz textures. For a full list of textures, see the themes documentation." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://pekdon.github.io/posts/0.2.0-theme-updates/" />
+<meta property="og:url" content="https://pekdon.pekwm.se/posts/0.2.0-theme-updates/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-02-09T21:40:39+01:00" />
 <meta property="article:modified_time" content="2021-02-09T21:40:39+01:00" />
+
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="0.2.0 theme updates"/>
@@ -91,7 +92,7 @@ Backgrounds It is now possible to set the background with the theme using the ne
     "isFamilyFriendly": "true",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https:\/\/pekdon.github.io\/posts\/0.2.0-theme-updates\/"
+        "@id": "https:\/\/pekdon.pekwm.se\/posts\/0.2.0-theme-updates\/"
     },
     "author" : [
     ],
@@ -103,15 +104,15 @@ Backgrounds It is now possible to set the background with the theme using the ne
     "publisher":{
         "@type":"Organization",
         "name": "pekdon",
-        "url": "https://pekdon.github.io/",
+        "url": "https://pekdon.pekwm.se/",
         "logo": {
             "@type": "ImageObject",
-            "url": "https:\/\/pekdon.github.io\/brand.svg",
+            "url": "https:\/\/pekdon.pekwm.se\/brand.svg",
             "width":"32",
             "height":"32"
         }
     },
-    "url" : "https:\/\/pekdon.github.io\/posts\/0.2.0-theme-updates\/",
+    "url" : "https:\/\/pekdon.pekwm.se\/posts\/0.2.0-theme-updates\/",
     "wordCount" : "577",
     "genre" : [ "pekwm" ]
 }
@@ -126,7 +127,7 @@ Backgrounds It is now possible to set the background with the theme using the ne
     <div class="wrapper">
         <header class="gblog-header">
     <div class="container flex align-center justify-center">
-        <a class="gblog-header__link" rel="me" href="https://pekdon.github.io/">
+        <a class="gblog-header__link" rel="me" href="https://pekdon.pekwm.se/">
             <span class="gblog-brand flex align-center justify-center">
                 <img class="gblog-brand__img" src="/brand.svg" alt="" width=60 height=60>
                 pekdon
@@ -152,6 +153,12 @@ Backgrounds It is now possible to set the background with the theme using the ne
         
         <li>
             <a class="gblog-nav__entry " href="/tags/pekwm/">pekwm</a>
+        </li>
+        
+        
+        
+        <li>
+            <a class="gblog-nav__entry " href="/tags/solaris/">solaris</a>
         </li>
         
         
@@ -204,7 +211,7 @@ theme system including:</p>
 <li>Variants</li>
 </ul>
 <p>This post will describe what these features do and how to use them.</p>
-<div class="gblog-post__anchorwrap"><h2 id="backgrounds">Backgrounds<a data-clipboard-text="https://pekdon.github.io/posts/0.2.0-theme-updates/#backgrounds" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Backgrounds" href="#backgrounds"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gblog-post__anchorwrap"><h2 id="backgrounds">Backgrounds<a data-clipboard-text="https://pekdon.pekwm.se/posts/0.2.0-theme-updates/#backgrounds" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Backgrounds" href="#backgrounds"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>It is now possible to set the background with the theme using the new
 <em>Background</em> section in the theme file. All pekwm textures are
 supported including the new <em>LinesVert</em> and <em>LinesHorz</em> textures. For
@@ -215,23 +222,23 @@ theme directory.</p>
 <p>An example background section is shown below together with the
 generated background image. The background will use 25% of the
 available screen height for each line.</p>
-<pre><code>Background {
+<pre tabindex="0"><code>Background {
   Texture = &quot;LinesHorz 25% #333333 #666666 #999999 #cccccc&quot;
 }
 </code></pre><p><img src="/images/posts/0.2.0-theme-updates_lines.png" alt="background with lines"></p>
 <p>For users who want to set the background self the background setting
 can be disabled in the main configuration file under the <em>Screen</em>
 section:</p>
-<pre><code>Screen {
+<pre tabindex="0"><code>Screen {
   ThemeBackground = &quot;False&quot;
 }
-</code></pre><div class="gblog-post__anchorwrap"><h2 id="colormaps">ColorMaps<a data-clipboard-text="https://pekdon.github.io/posts/0.2.0-theme-updates/#colormaps" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor ColorMaps" href="#colormaps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+</code></pre><div class="gblog-post__anchorwrap"><h2 id="colormaps">ColorMaps<a data-clipboard-text="https://pekdon.pekwm.se/posts/0.2.0-theme-updates/#colormaps" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor ColorMaps" href="#colormaps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>For theme developers <em>ColorMaps</em> has been added which allows for
 changing/mapping the colors of images used in themes. The intended use
 for this is to support creating themes with fever images and also
 support creating variants of themes using the same images.</p>
 <p>A syntax example:</p>
-<pre><code>ColorMaps {
+<pre tabindex="0"><code>ColorMaps {
   ColorMap = &quot;WhiteToBlack&quot; {
     Map = &quot;#ffffff&quot; { To = &quot;#000000&quot; }
   }
@@ -247,7 +254,7 @@ updated or added, only one image needs to be created and the images
 for the different states will come for free as soon as the ColorMap
 has been defined and used.</p>
 <p>The ColorMap for the NeoMotif theme looks like this:</p>
-<pre><code>ColorMaps {
+<pre tabindex="0"><code>ColorMaps {
   ColorMap = &quot;Unfocused&quot; {
     Map = &quot;#DDBB99&quot; { To = &quot;#AABBCC&quot; }
   }
@@ -261,7 +268,7 @@ has been defined and used.</p>
   }
 }
 </code></pre><p>And the Shade button went from this:</p>
-<pre><code>Right = &quot;Shade&quot; {
+<pre tabindex="0"><code>Right = &quot;Shade&quot; {
   Focused = &quot;Image button_shade.xpm&quot;
   Unfocused = &quot;Image button_shade_unf.xpm&quot;
   Hoover = &quot;Image button_shade.xpm&quot;
@@ -269,7 +276,7 @@ has been defined and used.</p>
   Button = &quot;1&quot; { Actions = &quot;Toggle Shaded&quot; }
 }
 </code></pre><p>To:</p>
-<pre><code>Right = &quot;Shade&quot; {
+<pre tabindex="0"><code>Right = &quot;Shade&quot; {
   Focused = &quot;Image button_shade.xpm&quot;
   Unfocused = &quot;ImageMapped Unfocused button_shade.xpm&quot;
   Hoover = &quot;ImageMapped Hoover button_shade.xpm&quot;
@@ -278,7 +285,7 @@ has been defined and used.</p>
 }
 </code></pre><p>Less images and the buttons now change color on hovering.</p>
 <p><img src="/images/posts/0.2.0-theme-updates_colormaps.png" alt="colormap example"></p>
-<div class="gblog-post__anchorwrap"><h2 id="variants">Variants<a data-clipboard-text="https://pekdon.github.io/posts/0.2.0-theme-updates/#variants" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Variants" href="#variants"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gblog-post__anchorwrap"><h2 id="variants">Variants<a data-clipboard-text="https://pekdon.pekwm.se/posts/0.2.0-theme-updates/#variants" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Variants" href="#variants"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <p>The last new feature mentioned in this post is theme variants which
 allows for bundling of related themes into a single themes folder. An
 example of this is the <a href="https://www.pekwm.se/themes/ion-p.html">ion-p</a>
@@ -288,7 +295,7 @@ which comes with the default <em>cleanice</em> color scheme and also the
 <p>In the <em>ion-p</em> example both variants share the same theme definition
 in a template file but have the colors defined in the variant file
 before the main theme is included like this:</p>
-<pre><code># lots of more colors defined here
+<pre tabindex="0"><code># lots of more colors defined here
 
 $COLOR_STATUS_BG=&quot;#ffffff&quot;
 $COLOR_STATUS_TEXT=&quot;#000000&quot;

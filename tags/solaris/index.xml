@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solaris on pekdon</title>
+    <link>https://pekdon.pekwm.se/tags/solaris/</link>
+    <description>Recent content in solaris on pekdon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Dec 2021 08:32:30 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/solaris/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sun Blade 1500 on Solaris 10</title>
+      <link>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</link>
+      <pubDate>Sun, 19 Dec 2021 08:32:30 +0000</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</guid>
+      <description>A while back I was fortunate enough to be given a Sun Blade 1500 from a long time pekwm user.
+It is, by todays standards, old and slow making it perfect for experiencing how pekwm actually performs. Also, running Solaris 10, being big endian and using Xsun instead of a current Xorg server makes it perfect to find odd issues.
+I had a few issues with getting machine up and running, the PSU and harddrive experienced some post storage issues.</description>
+    </item>
+    
+  </channel>
+</rss>

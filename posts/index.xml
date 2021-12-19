@@ -2,37 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on pekdon</title>
-    <link>https://pekdon.github.io/posts/</link>
+    <link>https://pekdon.pekwm.se/posts/</link>
     <description>Recent content in Posts on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Mar 2021 22:26:42 +0100</lastBuildDate><atom:link href="https://pekdon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 08:32:30 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sun Blade 1500 on Solaris 10</title>
+      <link>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</link>
+      <pubDate>Sun, 19 Dec 2021 08:32:30 +0000</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</guid>
+      <description>A while back I was fortunate enough to be given a Sun Blade 1500 from a long time pekwm user.
+It is, by todays standards, old and slow making it perfect for experiencing how pekwm actually performs. Also, running Solaris 10, being big endian and using Xsun instead of a current Xorg server makes it perfect to find odd issues.
+I had a few issues with getting machine up and running, the PSU and harddrive experienced some post storage issues.</description>
+    </item>
+    
     <item>
       <title>Compile times, GCC 4.8</title>
-      <link>https://pekdon.github.io/posts/compile_times-gcc-4.8/</link>
-      <pubDate>Sat, 13 Mar 2021 22:26:42 +0100</pubDate>
+      <link>https://pekdon.pekwm.se/posts/compile_times-gcc-4.8/</link>
+      <pubDate>Sat, 13 Mar 2021 22:26:42 +0000</pubDate>
       
-      <guid>https://pekdon.github.io/posts/compile_times-gcc-4.8/</guid>
+      <guid>https://pekdon.pekwm.se/posts/compile_times-gcc-4.8/</guid>
       <description>My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
 Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C++11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11.</description>
     </item>
     
     <item>
       <title>pekwm_panel in the works!</title>
-      <link>https://pekdon.github.io/posts/pekwm_panel/</link>
+      <link>https://pekdon.pekwm.se/posts/pekwm_panel/</link>
       <pubDate>Tue, 23 Feb 2021 21:37:40 +0100</pubDate>
       
-      <guid>https://pekdon.github.io/posts/pekwm_panel/</guid>
+      <guid>https://pekdon.pekwm.se/posts/pekwm_panel/</guid>
       <description>After rebooting the pekwm development, the activity from users on Github page has increased and in one of the recent issues a comment was added noting that it was hard to know iconified windows exist.
 The seasoned users know of the Icon menu, however, as a new pekwm user it is less than obvious how one should know the iconfied windows exist. As it was noted this was not a problem in other environments where a panel is available listing all clients I decided to create a pekwm_panel.</description>
     </item>
     
     <item>
       <title>0.2.0 theme updates</title>
-      <link>https://pekdon.github.io/posts/0.2.0-theme-updates/</link>
+      <link>https://pekdon.pekwm.se/posts/0.2.0-theme-updates/</link>
       <pubDate>Tue, 09 Feb 2021 21:40:39 +0100</pubDate>
       
-      <guid>https://pekdon.github.io/posts/0.2.0-theme-updates/</guid>
+      <guid>https://pekdon.pekwm.se/posts/0.2.0-theme-updates/</guid>
       <description>pekwm-0.2.0 will bring a couple of noticeable improvements to the theme system including:
  Backgrounds ColorMaps Variants  This post will describe what these features do and how to use them.
 Backgrounds It is now possible to set the background with the theme using the new Background section in the theme file. All pekwm textures are supported including the new LinesVert and LinesHorz textures. For a full list of textures, see the themes documentation.</description>
@@ -40,20 +51,20 @@ Backgrounds It is now possible to set the background with the theme using the ne
     
     <item>
       <title>pekwm_theme utility</title>
-      <link>https://pekdon.github.io/posts/pekwm_theme-utility/</link>
+      <link>https://pekdon.pekwm.se/posts/pekwm_theme-utility/</link>
       <pubDate>Wed, 03 Feb 2021 18:47:28 +0100</pubDate>
       
-      <guid>https://pekdon.github.io/posts/pekwm_theme-utility/</guid>
+      <guid>https://pekdon.pekwm.se/posts/pekwm_theme-utility/</guid>
       <description>As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
  pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes.</description>
     </item>
     
     <item>
       <title>pekwm development reboot</title>
-      <link>https://pekdon.github.io/posts/pekwm-development-reboot/</link>
+      <link>https://pekdon.pekwm.se/posts/pekwm-development-reboot/</link>
       <pubDate>Sun, 31 Jan 2021 12:33:11 +0100</pubDate>
       
-      <guid>https://pekdon.github.io/posts/pekwm-development-reboot/</guid>
+      <guid>https://pekdon.pekwm.se/posts/pekwm-development-reboot/</guid>
       <description>The pekwm development has been non-existent the last couple of years and before that it has been very slow for many years. Many reasons behind this including but not limited to not using a Linux machine at work, life has been busy and a lack of interest.
 My interest has come back, I&amp;rsquo;ve gotten myself an &amp;ldquo;old&amp;rdquo; Lenovo T440S running OpenBSD at home and started working on pekwm again.
 To be able to spend more time on actual development and not maintain infrastructure and what-not there has been some changes:</description>
