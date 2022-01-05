@@ -10,8 +10,9 @@
 
 
 
-    <meta name="description" content="My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
-Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C&#43;&#43;11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11.">
+    <meta name="description" content="After I was given a Sun Blade 1500, I started working on getting it setup trying to see if I could use it as a development machine.
+To get software I want compiled I started pkgsrc as there aren&rsquo;t many alternatives other than Ravenports and building everything by hand.
+I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying to get software compiled, even though it was x86_64 most compatability issues are unrelated to the architecture.">
 
 
 
@@ -23,7 +24,7 @@ Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was
     
 
 
-    <title>Compile times, GCC 4.8 | pekdon</title>
+    <title>Solaris Desktop | pekdon</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -31,19 +32,21 @@ Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was
 
     
 
-    <meta property="og:title" content="Compile times, GCC 4.8" />
-<meta property="og:description" content="My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
-Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C&#43;&#43;11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11." />
+    <meta property="og:title" content="Solaris Desktop" />
+<meta property="og:description" content="After I was given a Sun Blade 1500, I started working on getting it setup trying to see if I could use it as a development machine.
+To get software I want compiled I started pkgsrc as there aren&rsquo;t many alternatives other than Ravenports and building everything by hand.
+I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying to get software compiled, even though it was x86_64 most compatability issues are unrelated to the architecture." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://pekdon.pekwm.se/posts/compile_times-gcc-4.8/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-03-13T22:26:42+00:00" />
-<meta property="article:modified_time" content="2021-03-13T22:26:42+00:00" />
+<meta property="og:url" content="https://pekdon.pekwm.se/posts/solaris_desktop/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-04T17:19:48+00:00" />
+<meta property="article:modified_time" content="2022-01-04T17:19:48+00:00" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Compile times, GCC 4.8"/>
-<meta name="twitter:description" content="My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
-Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C&#43;&#43;11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11."/>
+<meta name="twitter:title" content="Solaris Desktop"/>
+<meta name="twitter:description" content="After I was given a Sun Blade 1500, I started working on getting it setup trying to see if I could use it as a development machine.
+To get software I want compiled I started pkgsrc as there aren&rsquo;t many alternatives other than Ravenports and building everything by hand.
+I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying to get software compiled, even though it was x86_64 most compatability issues are unrelated to the architecture."/>
 
 
     <link rel="preload" as="font" href="/fonts/Metropolis.woff2" type="font/woff2" crossorigin="anonymous">
@@ -81,23 +84,23 @@ Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was
     "@context": "http://schema.org",
     "@type": "BlogPosting",
     "articleSection": "posts",
-    "name": "Compile times, GCC 4.8",
-    "headline": "Compile times, GCC 4.8",
+    "name": "Solaris Desktop",
+    "headline": "Solaris Desktop",
     "alternativeHeadline": "",
-    "description": "My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.\nMoving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C\u002b\u002b11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11.",
+    "description": "After I was given a Sun Blade 1500, I started working on getting it setup trying to see if I could use it as a development machine.\nTo get software I want compiled I started pkgsrc as there aren\u0026rsquo;t many alternatives other than Ravenports and building everything by hand.\nI also got myself (a now dead) Sun Ultra 40 reducing wait times while trying to get software compiled, even though it was x86_64 most compatability issues are unrelated to the architecture.",
     "inLanguage": "en",
     "isFamilyFriendly": "true",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https:\/\/pekdon.pekwm.se\/posts\/compile_times-gcc-4.8\/"
+        "@id": "https:\/\/pekdon.pekwm.se\/posts\/solaris_desktop\/"
     },
     "author" : [
     ],
     "copyrightHolder" : "pekdon",
-    "copyrightYear" : "2021",
-    "dateCreated": "2021-03-13T22:26:42.00Z",
-    "datePublished": "2021-03-13T22:26:42.00Z",
-    "dateModified": "2021-03-13T22:26:42.00Z",
+    "copyrightYear" : "2022",
+    "dateCreated": "2022-01-04T17:19:48.00Z",
+    "datePublished": "2022-01-04T17:19:48.00Z",
+    "dateModified": "2022-01-04T17:19:48.00Z",
     "publisher":{
         "@type":"Organization",
         "name": "pekdon",
@@ -109,9 +112,9 @@ Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was
             "height":"32"
         }
     },
-    "url" : "https:\/\/pekdon.pekwm.se\/posts\/compile_times-gcc-4.8\/",
-    "wordCount" : "264",
-    "genre" : [ ]
+    "url" : "https:\/\/pekdon.pekwm.se\/posts\/solaris_desktop\/",
+    "wordCount" : "334",
+    "genre" : [ "solaris" , "pkgsrc" ]
 }
 </script>
 
@@ -177,15 +180,15 @@ Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was
             
             
 
-            <h1>Compile times, GCC 4.8</h1>
+            <h1>Solaris Desktop</h1>
             
             <div class="gblog-post__meta">
                 <span class="no-wrap">
                     <svg class="icon date"><use xlink:href="#date"></use></svg>
                     <span class="gblog-post__tag">
-                        <time datetime="2021-03-13T22:26:42Z">
+                        <time datetime="2022-01-04T17:19:48Z">
                             
-                            Mar 13, 2021
+                            Jan 4, 2022
                         </time>
                     </span>
                 </span>
@@ -206,44 +209,46 @@ Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was
     
 
 
-<p>My main development machine at the moment is a ~7 year old Lenovo
-T440s laptop which is more than snappy enough for my needs but it is
-starting to show its age when it comes to some of the more javascript
-intensive web sites and when compiling software.</p>
-<p>Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that
-GCC-4.8 was available. Given that GCC 4.8 being the first GCC release
-stating support for most major features of C++11 I thought it was
-worth giving it a go to see how the compile times compare with the
-system compiler, clang 11.</p>
-<p>pekwm did require some added compatability code for <em>std::put_time</em>,
-<em>std::stoi</em>, <em>std::stof</em> and <em>std::to_string</em> which all are C++11 but
-unavailable using GCC-4.8.5 part of FreeBSD.</p>
-<p>The older compiler is indeed a lot faster than current clang (and
-current GCC, no numbers included).</p>
-<p>The unscientific numbers for a full build of pekwm including the test
-applications:</p>
-<pre tabindex="0"><code>make, clang 11.0.1
-
-      104.30 real       100.31 user         4.48 sys
-
-make -j4, clang 11.0.1
-
-       48.90 real       174.34 user         6.45 sys
-
-make, gcc 4.8.5
-
-       63.82 real        57.55 user         5.89 sys
-
-make -j4, gcc 4.8.5
-
-       29.51 real       100.03 user         8.63 sys
-</code></pre><p>Disregarding the absolute numbers there’s quite a bit of time to save
-during development having almost twice as fast compile times. The
-generated binaries probably are slower assuming optimizers have become
-better over the years but looking at this from the developers point of
-view it might actully be worth using older compilers during part of
-the development cycle to avoid spending time waiting for the compiler
-to finish.</p>
+<p>After I was given a Sun Blade 1500, I started working on getting it setup
+trying to see if I could use it as a development machine.</p>
+<p>To get software I want compiled I started <a href="https://pkgsrc.org/">pkgsrc</a> as
+there aren&rsquo;t many alternatives other than
+<a href="http://www.ravenports.com/">Ravenports</a> and building everything by hand.</p>
+<p>I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying
+to get software compiled, even though it was x86_64 most compatability issues
+are unrelated to the architecture.</p>
+<p>pkgsrc is familiar to me since the days when I used NetBSD on my workstation,
+it also has been supported on Solaris for a long time and now has a good set
+of patches and tweaks to make software run on Solaris.</p>
+<p>It has taken a while but now I have a mostly functional desktop including:</p>
+<ul>
+<li>Compiler, GCC 8.4 (GCC 9 deprecated Solaris 10, GCC 10 dropped it)</li>
+<li>Editor, <a href="https://neovim.io/">neovim</a> instead of Emacs as Emacs is super
+slow on legacy hardware these days.</li>
+<li>Music Player, <a href="https://cmus.github.io/">C* Music Player</a></li>
+<li>Shell, <a href="https://zsh.sourceforge.io/">ZSH</a></li>
+<li>Web Browser, <a href="https://luakit.github.io/">luakit</a> instead of Firefox as it
+requires rust.</li>
+</ul>
+<p><img src="/images/posts/solaris_desktop-luakit.png" alt="luakit on solaris"></p>
+<p>There are still a few things on my wish list:</p>
+<ul>
+<li>Up to date Go (Only Solaris 11 is supported), GCC GO works.</li>
+<li>Media Player</li>
+</ul>
+<p>There&rsquo;s been a few patches submitted to pkgsrc and also upstream projects such
+as cups, irssi, libuv, neovim, xorg, zsh, along the way. Most patches have been
+very small such as missing includes, dropped defines or more compatible options
+to tools like install or how the shell is used.</p>
+<p>The only changes with actual content has been for neovim where Solaris &lt; 11 and
+Illumos lack a forkpty implementation.</p>
+<p>And for the software where pkgsrc libnbcompat does not currently provide enough
+functionality, I have rolled my own
+<a href="https://github.com/pekdon/libsol10-compat">libsol10-compat</a> library with
+implementations for now commonly used functions such as <strong>getrandom</strong>,
+<strong>strndup</strong> and <strong>posix_memalign</strong>. The library make use of the GCC extension
+<strong>#include_next</strong>, <strong>CPPFLAGS</strong> and <strong>LDFLAGS</strong> to make it appear as if the
+host system have these new standard functions available.</p>
 
 
         </section>

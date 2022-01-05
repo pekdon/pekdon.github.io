@@ -6,22 +6,31 @@
     <description>Recent content in Tags on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 08:32:30 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 17:19:48 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>pekwm</title>
-      <link>https://pekdon.pekwm.se/tags/pekwm/</link>
-      <pubDate>Sun, 19 Dec 2021 08:32:30 +0000</pubDate>
+      <title>pkgsrc</title>
+      <link>https://pekdon.pekwm.se/tags/pkgsrc/</link>
+      <pubDate>Tue, 04 Jan 2022 17:19:48 +0000</pubDate>
       
-      <guid>https://pekdon.pekwm.se/tags/pekwm/</guid>
+      <guid>https://pekdon.pekwm.se/tags/pkgsrc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>solaris</title>
       <link>https://pekdon.pekwm.se/tags/solaris/</link>
-      <pubDate>Sun, 19 Dec 2021 08:32:30 +0000</pubDate>
+      <pubDate>Tue, 04 Jan 2022 17:19:48 +0000</pubDate>
       
       <guid>https://pekdon.pekwm.se/tags/solaris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pekwm</title>
+      <link>https://pekdon.pekwm.se/tags/pekwm/</link>
+      <pubDate>Sun, 19 Dec 2021 08:32:30 +0000</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/tags/pekwm/</guid>
       <description></description>
     </item>
     

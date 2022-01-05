@@ -6,7 +6,18 @@
     <description>Recent content in Posts on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 08:32:30 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 17:19:48 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solaris Desktop</title>
+      <link>https://pekdon.pekwm.se/posts/solaris_desktop/</link>
+      <pubDate>Tue, 04 Jan 2022 17:19:48 +0000</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/solaris_desktop/</guid>
+      <description>After I was given a Sun Blade 1500, I started working on getting it setup trying to see if I could use it as a development machine.
+To get software I want compiled I started pkgsrc as there aren&amp;rsquo;t many alternatives other than Ravenports and building everything by hand.
+I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying to get software compiled, even though it was x86_64 most compatability issues are unrelated to the architecture.</description>
+    </item>
+    
     <item>
       <title>Sun Blade 1500 on Solaris 10</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</link>
