@@ -10,7 +10,9 @@
 
 
 
-    <meta name="description" content="pekdon">
+    <meta name="description" content="A friend of mine asked me if it was possible to use pywal together with pekwm a while back.
+pywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.
+Me, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources.">
 
 
 
@@ -22,7 +24,7 @@
     
 
 
-    <title>Tags | pekdon</title>
+    <title>pekwm and pywal | pekdon</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -30,14 +32,20 @@
 
     
 
-    <meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://pekdon.pekwm.se/tags/" />
+    <meta property="og:title" content="pekwm and pywal" />
+<meta property="og:description" content="A friend of mine asked me if it was possible to use pywal together with pekwm a while back.
+pywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.
+Me, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pekdon.pekwm.se/posts/pekwm_pywal/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-21T10:21:19+01:00" />
+<meta property="article:modified_time" content="2023-01-21T10:21:19+01:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="pekwm and pywal"/>
+<meta name="twitter:description" content="A friend of mine asked me if it was possible to use pywal together with pekwm a while back.
+pywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.
+Me, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources."/>
 
 
     <link rel="preload" as="font" href="/fonts/Metropolis.woff2" type="font/woff2" crossorigin="anonymous">
@@ -66,6 +74,49 @@
 <!-- Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog -->
 
     
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "pekwm and pywal",
+    "headline": "pekwm and pywal",
+    "alternativeHeadline": "",
+    "description": "A friend of mine asked me if it was possible to use pywal together with pekwm a while back.\npywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.\nMe, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources.",
+    "inLanguage": "en",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/pekdon.pekwm.se\/posts\/pekwm_pywal\/"
+    },
+    "author" : [
+    ],
+    "copyrightHolder" : "pekdon",
+    "copyrightYear" : "2023",
+    "dateCreated": "2023-01-21T10:21:19.00Z",
+    "datePublished": "2023-01-21T10:21:19.00Z",
+    "dateModified": "2023-01-21T10:21:19.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "pekdon",
+        "url": "https://pekdon.pekwm.se/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/pekdon.pekwm.se\/brand.svg",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "url" : "https:\/\/pekdon.pekwm.se\/posts\/pekwm_pywal\/",
+    "wordCount" : "190",
+    "genre" : [ "pekwm" , "themes" ]
+}
+</script>
+
 
 </head>
 
@@ -129,23 +180,71 @@
 
         <main class="gblog-page container">
             
-    
-    
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            
+            
+
+            <h1>pekwm and pywal</h1>
+            
+            <div class="gblog-post__meta">
+                <span class="no-wrap">
+                    <svg class="icon date"><use xlink:href="#date"></use></svg>
+                    <span class="gblog-post__tag">
+                        <time datetime="2023-01-21T10:21:19&#43;01:00">
+                            
+                            Jan 21, 2023
+                        </time>
+                    </span>
+                </span>
+
+                <span class="no-wrap">
+                    <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                    <span class="gblog-post__tag">1 min read</span>
+                </span>
+            </div>
+            
+        </header>
+
+        <section class="gblog-markdown">
+            
+
+
 
     
-    
-    
 
-<nav class="gblog-paging flex flex-even align-center" role="navigation">
-    <div class="gblog-paging__item gblog-paging__item--prev">
-    
-    </div>
-    <div class="gblog-paging__state">Page 1 of 0</div>
-    <div class="gblog-paging__item gblog-paging__item--next">
-    
-    </div>
-</nav>
 
+<p>A friend of mine asked me if it was possible to use
+<a href="https://github.com/dylanaraps/pywal">pywal</a> together with pekwm a while back.</p>
+<p>pywal is a tool that generates a color scheme from the dominant colors in
+an image. Amongst other things, the color scheme is set in Xresources.</p>
+<p>Me, being unaware of what pywal was at that time, looked into it and figured
+a good way of supporting it would be to allow for pekwm to read color
+information from Xresources.</p>
+<p>Now, and in the upcoming pekwm-0.3.0 release, pekwm supports reading colors
+recursively from Xresources and will reload the theme if any of the referenced
+Xresources gets updated.</p>
+<p>Example focused color from Xresources:</p>
+<pre tabindex="0"><code>FontColor {
+	Focused = &#34;&amp;*color1&#34;
+}
+</code></pre><p>In addition, configuration files can also reference Xresources now using the
+specific variable prefix <strong>&amp;</strong>. While at it, I also added support for reading
+string atoms as variables with the prefix <strong>@</strong>. These variables will be
+expanded when loading the configuration file and will not be dynamically
+updated when the resources change.</p>
+<p>Example Xresource and atom reference:</p>
+<pre tabindex="0"><code>Actions = &#34;Exec pekwm_dialog color1 ${&amp;*color1} theme ${@_PEKWM_THEME}&#34;
+</code></pre><p>Did a short video on using pekwm and pywal:</p>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/te--FsKZDtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+        </section>
+    </article>
 
         </main>
 

@@ -6,7 +6,18 @@
     <description>Recent content on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 17:19:48 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jan 2023 10:21:19 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pekwm and pywal</title>
+      <link>https://pekdon.pekwm.se/posts/pekwm_pywal/</link>
+      <pubDate>Sat, 21 Jan 2023 10:21:19 +0100</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/pekwm_pywal/</guid>
+      <description>A friend of mine asked me if it was possible to use pywal together with pekwm a while back.
+pywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.
+Me, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources.</description>
+    </item>
+    
     <item>
       <title>Solaris Desktop</title>
       <link>https://pekdon.pekwm.se/posts/solaris_desktop/</link>
@@ -56,7 +67,7 @@ The seasoned users know of the Icon menu, however, as a new pekwm user it is les
       
       <guid>https://pekdon.pekwm.se/posts/0.2.0-theme-updates/</guid>
       <description>pekwm-0.2.0 will bring a couple of noticeable improvements to the theme system including:
- Backgrounds ColorMaps Variants  This post will describe what these features do and how to use them.
+Backgrounds ColorMaps Variants This post will describe what these features do and how to use them.
 Backgrounds It is now possible to set the background with the theme using the new Background section in the theme file. All pekwm textures are supported including the new LinesVert and LinesHorz textures. For a full list of textures, see the themes documentation.</description>
     </item>
     
@@ -67,7 +78,7 @@ Backgrounds It is now possible to set the background with the theme using the ne
       
       <guid>https://pekdon.pekwm.se/posts/pekwm_theme-utility/</guid>
       <description>As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
- pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes.</description>
+pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes. This post focus on the last component in the list above, the user command for managing themes.</description>
     </item>
     
     <item>

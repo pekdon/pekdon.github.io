@@ -35,7 +35,6 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pekdon.pekwm.se/posts/" />
 
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content=""/>
@@ -118,6 +117,12 @@
         
         
         
+        <li>
+            <a class="gblog-nav__entry " href="/tags/themes/">themes</a>
+        </li>
+        
+        
+        
     </ul>
 </nav>
 
@@ -128,6 +133,77 @@
     
 
     
+    
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            <h1><a href="/posts/pekwm_pywal/">pekwm and pywal</a></h1>
+        </header>
+
+        <section class="gblog-markdown">
+            A friend of mine asked me if it was possible to use pywal together with pekwm a while back.
+pywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.
+Me, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources.
+        </section>
+        <div class="gblog-post__readmore">
+            
+            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/pekwm_pywal/">Read full post</a>
+            
+        </div>
+
+        <footer class="gblog-post__footer">
+            <span class="no-wrap">
+                <svg class="icon date"><use xlink:href="#date"></use></svg>
+                <span class="gblog-post__tag">
+                    <time datetime="2023-01-21T10:21:19&#43;01:00">
+                        
+                        Jan 21, 2023
+                    </time>
+                </span>
+            </span>
+
+            <span class="no-wrap">
+                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                <span class="gblog-post__tag">1 min read</span>
+            </span>
+
+            
+
+            
+            
+
+            
+            
+            
+                
+                
+                    
+                    <span class="no-wrap">
+                    <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
+                    
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="/tags/pekwm/" title="All posts tagged with 'pekwm'">pekwm</a>
+</span>
+
+                    </span>
+                    
+                
+                
+            
+                
+                
+                    
+                    
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="/tags/themes/" title="All posts tagged with 'themes'">themes</a>
+</span>
+
+                    
+                
+                
+            
+            
+        </footer>
+    </article>
     
     <article class="gblog-post">
         <header class="gblog-post__header">
@@ -377,7 +453,7 @@ The seasoned users know of the Icon menu, however, as a new pekwm user it is les
 
         <section class="gblog-markdown">
             pekwm-0.2.0 will bring a couple of noticeable improvements to the theme system including:
- Backgrounds ColorMaps Variants  This post will describe what these features do and how to use them.
+Backgrounds ColorMaps Variants This post will describe what these features do and how to use them.
 Backgrounds It is now possible to set the background with the theme using the new Background section in the theme file. All pekwm textures are supported including the new LinesVert and LinesHorz textures. For a full list of textures, see the themes documentation.
         </section>
         <div class="gblog-post__readmore">
@@ -436,7 +512,7 @@ Backgrounds It is now possible to set the background with the theme using the ne
 
         <section class="gblog-markdown">
             As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
- pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes.  This post focus on the last component in the list above, the user command for managing themes.
+pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes. This post focus on the last component in the list above, the user command for managing themes.
         </section>
         <div class="gblog-post__readmore">
             
