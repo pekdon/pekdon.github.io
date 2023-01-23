@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pekdon.pekwm.se/</loc>
-    <lastmod>2023-01-21T10:21:19+01:00</lastmod>
+    <lastmod>2023-01-23T20:18:39+01:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/tags/pekwm/</loc>
-    <lastmod>2023-01-21T10:21:19+01:00</lastmod>
+    <lastmod>2023-01-23T20:18:39+01:00</lastmod>
   </url><url>
-    <loc>https://pekdon.pekwm.se/posts/pekwm_pywal/</loc>
-    <lastmod>2023-01-21T10:21:19+01:00</lastmod>
+    <loc>https://pekdon.pekwm.se/posts/pekwm_release_history/</loc>
+    <lastmod>2023-01-23T20:18:39+01:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/posts/</loc>
-    <lastmod>2023-01-21T10:21:19+01:00</lastmod>
+    <lastmod>2023-01-23T20:18:39+01:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/tags/</loc>
+    <lastmod>2023-01-23T20:18:39+01:00</lastmod>
+  </url><url>
+    <loc>https://pekdon.pekwm.se/posts/pekwm_pywal/</loc>
     <lastmod>2023-01-21T10:21:19+01:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/tags/themes/</loc>

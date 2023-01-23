@@ -6,7 +6,19 @@
     <description>Recent content on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jan 2023 10:21:19 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 20:18:39 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pekwm release history</title>
+      <link>https://pekdon.pekwm.se/posts/pekwm_release_history/</link>
+      <pubDate>Mon, 23 Jan 2023 20:18:39 +0100</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/pekwm_release_history/</guid>
+      <description>pekwm-0.3.0 has been released and includes quite a bit of changes compared to the previous pekwm-0.2.1 not to speak of whats still in some distributions that being pekwm-0.1.18.
+These releases got me thinking about the impact the release frequency has on software.
+First, lets start of with the not so impressive pekwm release history:
+0.3.0, 2022-01, 13 month since 0.2.1. 0.2.1, 2021-12, 1 month since 0.2.0. 0.2.0, 2021-10, 11 months since 0.</description>
+    </item>
+    
     <item>
       <title>pekwm and pywal</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_pywal/</link>
