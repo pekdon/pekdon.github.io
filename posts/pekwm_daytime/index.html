@@ -9,7 +9,7 @@
   />
   
     
-      <title>pekwm_theme utility | pekdon</title>
+      <title>pekwm daytime | pekdon</title>
     
   
   <link rel="stylesheet" href="/css/reset.css"/>
@@ -64,61 +64,69 @@
         
   <main>
     <article>
-      <h1 class="title">pekwm_theme utility</h1>
+      <h1 class="title">pekwm daytime</h1>
       
       <div class="post-meta">
   <strong>
     <span>Posted on</span>
-    <time>2021-02-03 18:47:28</time>
+    <time>2025-02-16 19:27:11</time>
     
     
   </strong>
-  <span> • 268 words</span>
-  <span> • 2 minute read</span>
+  <span> • 190 words</span>
+  <span> • 1 minute read</span>
   
   
     <div>
       <span>Tags:</span>
       
-        <a href="/tags/pekwm">pekwm</a>
+        <a href="/tags/pekwm">pekwm</a>, 
+        <a href="/tags/themes">themes</a>
     </div>
   
 </div>
 
-      <div class="content"><p>As part of getting pekwm back on track the infrastructure for a theme
-index has started to take shape with the following components:</p>
-<ol>
-<li><a href="https://github.com/pekwm/pekwm-theme-index/">pekwm-theme-index</a>, a repository on GitHub with a collection of theme files containing meta-data about themes.</li>
-<li><strong>pekwm-theme-page</strong>, the page and screenshot generator for <a href="https://www.pekwm.se/themes/">https://www.pekwm.se/themes/</a> based on the data from pekwm-theme-index.</li>
-<li><strong>pekwm_theme</strong>, shell script included with pekwm for managing user themes.</li>
-</ol>
-<p>This post focus on the last component in the list above, the user
-command for managing themes.</p>
-<p>The idea behind this tool started from discussions in the #pekwm
-channel on freenode, where the idea behind the search and show
-functions came to existence.</p>
-<p>Fueled with energy from my dislike of the current state of the *-look
-series of sites with the ads, cryptic filenames and broken links I
-hacked up a first version of the pekwm_theme command during a longer
-than usual morning coffee session.</p>
-<p>The command have the following external dependencies:</p>
+      <div class="content"><p>Most (desktop) environments these days have support for both a light and dark
+mode and during the winter semester the changes in ambient lighting is quite
+dramatic during the day and so this is something I&rsquo;ve been wanting to have in
+pekwm not having to do it manually.</p>
+<p>During the summer semester, there&rsquo;s virtually no need for me as it is mostly
+bright outside during the hours I&rsquo;m awake.</p>
+<p>Anyway, pekwm has gotten a new optional component, pekwm_sys that is
+configured in the new <code>Sys</code> section of the main config file.</p>
+<p>Example:</p>
+<pre tabindex="0"><code>Sys {
+    Enable = &#34;True&#34;
+    LocationLookup = &#34;True&#34;
+    NetTheme = &#34;Raleigh&#34;
+    XResources {
+        Day {
+            &#34;XTerm*background&#34; = &#34;#ffffff&#34;
+            &#34;XTerm*foreground&#34; = &#34;#000000&#34;
+        }
+        Night {
+            &#34;XTerm*background&#34; = &#34;#000000&#34;
+            &#34;XTerm*foreground&#34; = &#34;#ffffff&#34;
+        }
+    }
+}
+</code></pre><p>It is currently able to:</p>
 <ul>
-<li>curl, wget or ftp (on BSD) for fetching the theme index.</li>
-<li>git for fetching themes.</li>
-<li>awk, grep and sed for theme index handling.</li>
+<li>Lookup location based on IP using <a href="https://geoip.pw">geoip.pw</a>
+(requires libcurl)</li>
+<li>Calculate sun-set and sun-rise times based on location.</li>
+<li>XSETTINGS provider, used for GTK theme switching.</li>
+<li>Set XResources on time of day changes.</li>
+<li>Execute abritary commands on time of day changes.</li>
 </ul>
-<p>In addition the command use another new pekwm utility, ekwm_dialog
-inspired by the xmessage command which I will write more about in
-another post.</p>
-<p>Here is a screenshot of the pekwm_theme utility in action with a
-preview of the <a href="https://www.pekwm.se/themes/m0nst4.html">m0nst4</a> theme
-shown in pekwm_dialog:</p>
-<p><img src="../../images/posts/pekwm_theme-utility-1.png" alt="pekwm_theme in action"></p>
-<p>Pressing install will fetch and activate the theme, activation use the
-pekwm_themeset.sh script that drives the Theme menu.</p>
-<p>If you feel brave (or not so brave), fetch pekwm from git and try it
-out. If you have any issues, report them on Github or #pekwm on
-freenode!</p>
+<h3 id="demo">Demo</h3>
+<p>This shows how the new functionality changes pekwm, xterm and GTK on the fly
+when time of day is changed:</p>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-vMmTmbBESU?si=rcNti7v5SkVcjdF3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 </div>
     </article>
   </main>

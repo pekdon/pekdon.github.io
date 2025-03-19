@@ -9,7 +9,7 @@
   />
   
     
-      <title>pekwm_theme utility | pekdon</title>
+      <title>pekwm theme scaling | pekdon</title>
     
   
   <link rel="stylesheet" href="/css/reset.css"/>
@@ -64,61 +64,63 @@
         
   <main>
     <article>
-      <h1 class="title">pekwm_theme utility</h1>
+      <h1 class="title">pekwm theme scaling</h1>
       
       <div class="post-meta">
   <strong>
     <span>Posted on</span>
-    <time>2021-02-03 18:47:28</time>
+    <time>2025-03-15 20:12:25</time>
     
     
   </strong>
-  <span> • 268 words</span>
+  <span> • 218 words</span>
   <span> • 2 minute read</span>
   
   
     <div>
       <span>Tags:</span>
       
-        <a href="/tags/pekwm">pekwm</a>
+        <a href="/tags/pekwm">pekwm</a>, 
+        <a href="/tags/themes">themes</a>
     </div>
   
 </div>
 
-      <div class="content"><p>As part of getting pekwm back on track the infrastructure for a theme
-index has started to take shape with the following components:</p>
-<ol>
-<li><a href="https://github.com/pekwm/pekwm-theme-index/">pekwm-theme-index</a>, a repository on GitHub with a collection of theme files containing meta-data about themes.</li>
-<li><strong>pekwm-theme-page</strong>, the page and screenshot generator for <a href="https://www.pekwm.se/themes/">https://www.pekwm.se/themes/</a> based on the data from pekwm-theme-index.</li>
-<li><strong>pekwm_theme</strong>, shell script included with pekwm for managing user themes.</li>
-</ol>
-<p>This post focus on the last component in the list above, the user
-command for managing themes.</p>
-<p>The idea behind this tool started from discussions in the #pekwm
-channel on freenode, where the idea behind the search and show
-functions came to existence.</p>
-<p>Fueled with energy from my dislike of the current state of the *-look
-series of sites with the ads, cryptic filenames and broken links I
-hacked up a first version of the pekwm_theme command during a longer
-than usual morning coffee session.</p>
-<p>The command have the following external dependencies:</p>
+      <div class="content"><p>Got the question if pekwm supported HiDPI display, or theme scaling more
+specifically, and as it did not I got excited about it and started
+implementing theme scaling for pekwm and its shipped tools.</p>
+<p>A single scaling setting in the <code>Screen</code> section controls the scaling:</p>
+<pre tabindex="0"><code>Screen {
+    Scale = &#34;2.0&#34;
+}
+</code></pre><p>If the factor is an integer, pixels are scaled to 4, 9, 16 etc pixels
+without any scaling artifacts. It is possible to specify 1.5 but scaling
+result will not be as clean.</p>
+<p>An example of what it looks like, using scale 2.0 on a standard DPI monitor
+together with bitmap fonts in the terminal:</p>
+<p><img src="../../images/posts/pekwm_theme_scale_bitmap_font.png" alt="scaled bitmap font"></p>
+<h3 id="what-is-scaled">What is scaled</h3>
 <ul>
-<li>curl, wget or ftp (on BSD) for fetching the theme index.</li>
-<li>git for fetching themes.</li>
-<li>awk, grep and sed for theme index handling.</li>
+<li>Values specified in pixels are multiplied with the factor when loaded
+from the configuration.</li>
+<li>Images are scaled at load time.</li>
+<li>Cairo fonts size is multiplied with the factor.</li>
+<li>Xft fonts is <em>NOT</em> multiplied with the factor, they adjust with DPI setting
+of your display.</li>
+<li>Bitmap fonts are rendered as is and then scaled (this is an area with much
+room for improvement performance wise)</li>
 </ul>
-<p>In addition the command use another new pekwm utility, ekwm_dialog
-inspired by the xmessage command which I will write more about in
-another post.</p>
-<p>Here is a screenshot of the pekwm_theme utility in action with a
-preview of the <a href="https://www.pekwm.se/themes/m0nst4.html">m0nst4</a> theme
-shown in pekwm_dialog:</p>
-<p><img src="../../images/posts/pekwm_theme-utility-1.png" alt="pekwm_theme in action"></p>
-<p>Pressing install will fetch and activate the theme, activation use the
-pekwm_themeset.sh script that drives the Theme menu.</p>
-<p>If you feel brave (or not so brave), fetch pekwm from git and try it
-out. If you have any issues, report them on Github or #pekwm on
-freenode!</p>
+<h3 id="extras">Extras</h3>
+<p>In additions to just scaling the values on load, there is a new atom set on
+the root window <code>_PEKWM_THEME_SCALE</code> that is updated whenever the scale is
+changed causing <em>pekwm_panel</em> and <em>pekwm_dialog</em> to reload the theme and
+resize itself for the new scale.</p>
+<h3 id="demo">Demo</h3>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpkBwfrBJ1c?si=PdqVtKbaGhO74nIn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 </div>
     </article>
   </main>

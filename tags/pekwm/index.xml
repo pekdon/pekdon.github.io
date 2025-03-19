@@ -6,7 +6,39 @@
     <description>Recent content in pekwm on pekdon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 20:18:39 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/pekwm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Mar 2025 20:12:25 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/pekwm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pekwm theme scaling</title>
+      <link>https://pekdon.pekwm.se/posts/pekwm_theme_scaling/</link>
+      <pubDate>Sat, 15 Mar 2025 20:12:25 +0100</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/pekwm_theme_scaling/</guid>
+      <description>Got the question if pekwm supported HiDPI display, or theme scaling more specifically, and as it did not I got excited about it and started implementing theme scaling for pekwm and its shipped tools.
+A single scaling setting in the Screen section controls the scaling:
+Screen { Scale = &amp;#34;2.0&amp;#34; } If the factor is an integer, pixels are scaled to 4, 9, 16 etc pixels without any scaling artifacts. It is possible to specify 1.</description>
+    </item>
+    
+    <item>
+      <title>pekwm daytime</title>
+      <link>https://pekdon.pekwm.se/posts/pekwm_daytime/</link>
+      <pubDate>Sun, 16 Feb 2025 19:27:11 +0100</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/pekwm_daytime/</guid>
+      <description>Most (desktop) environments these days have support for both a light and dark mode and during the winter semester the changes in ambient lighting is quite dramatic during the day and so this is something I&amp;rsquo;ve been wanting to have in pekwm not having to do it manually.
+During the summer semester, there&amp;rsquo;s virtually no need for me as it is mostly bright outside during the hours I&amp;rsquo;m awake.
+Anyway, pekwm has gotten a new optional component, pekwm_sys that is configured in the new Sys section of the main config file.</description>
+    </item>
+    
+    <item>
+      <title>pekwm-0.3.1 released</title>
+      <link>https://pekdon.pekwm.se/posts/pekwm_0.3.1_released/</link>
+      <pubDate>Sun, 01 Dec 2024 17:50:41 +0100</pubDate>
+      
+      <guid>https://pekdon.pekwm.se/posts/pekwm_0.3.1_released/</guid>
+      <description>First maintenance release in the new 0.3.X series of pekwm releases.
+Closed issues pekwm #170, Reduce flickering when placing new windows. #175, GotoItem N now skips separators and non-visible items. #163, ButtonRelase actions on the Client working again. #161, GotoItem N regression caused it to behave as NextItem. Use X double buffer extension in pekwm_panel and pekwm_dialog to avoid flickering on redraws. X11 font name detection would fail if any font options was specified, such as alignment.</description>
+    </item>
+    
     <item>
       <title>pekwm release history</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_release_history/</link>

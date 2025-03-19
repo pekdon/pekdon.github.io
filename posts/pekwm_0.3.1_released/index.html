@@ -9,7 +9,7 @@
   />
   
     
-      <title>pekwm_theme utility | pekdon</title>
+      <title>pekwm-0.3.1 released | pekdon</title>
     
   
   <link rel="stylesheet" href="/css/reset.css"/>
@@ -64,17 +64,17 @@
         
   <main>
     <article>
-      <h1 class="title">pekwm_theme utility</h1>
+      <h1 class="title">pekwm-0.3.1 released</h1>
       
       <div class="post-meta">
   <strong>
     <span>Posted on</span>
-    <time>2021-02-03 18:47:28</time>
+    <time>2024-12-01 17:50:41</time>
     
     
   </strong>
-  <span> • 268 words</span>
-  <span> • 2 minute read</span>
+  <span> • 129 words</span>
+  <span> • 1 minute read</span>
   
   
     <div>
@@ -85,40 +85,29 @@
   
 </div>
 
-      <div class="content"><p>As part of getting pekwm back on track the infrastructure for a theme
-index has started to take shape with the following components:</p>
-<ol>
-<li><a href="https://github.com/pekwm/pekwm-theme-index/">pekwm-theme-index</a>, a repository on GitHub with a collection of theme files containing meta-data about themes.</li>
-<li><strong>pekwm-theme-page</strong>, the page and screenshot generator for <a href="https://www.pekwm.se/themes/">https://www.pekwm.se/themes/</a> based on the data from pekwm-theme-index.</li>
-<li><strong>pekwm_theme</strong>, shell script included with pekwm for managing user themes.</li>
-</ol>
-<p>This post focus on the last component in the list above, the user
-command for managing themes.</p>
-<p>The idea behind this tool started from discussions in the #pekwm
-channel on freenode, where the idea behind the search and show
-functions came to existence.</p>
-<p>Fueled with energy from my dislike of the current state of the *-look
-series of sites with the ads, cryptic filenames and broken links I
-hacked up a first version of the pekwm_theme command during a longer
-than usual morning coffee session.</p>
-<p>The command have the following external dependencies:</p>
+      <div class="content"><p>First maintenance release in the new 0.3.X series of pekwm releases.</p>
+<h2 id="closed-issues">Closed issues</h2>
+<h3 id="pekwm">pekwm</h3>
 <ul>
-<li>curl, wget or ftp (on BSD) for fetching the theme index.</li>
-<li>git for fetching themes.</li>
-<li>awk, grep and sed for theme index handling.</li>
+<li>#170, Reduce flickering when placing new windows.</li>
+<li>#175, GotoItem N now skips separators and non-visible items.</li>
+<li>#163, ButtonRelase actions on the Client working again.</li>
+<li>#161, GotoItem N regression caused it to behave as NextItem.</li>
+<li>Use X double buffer extension in pekwm_panel and pekwm_dialog to avoid
+flickering on redraws.</li>
+<li>X11 font name detection would fail if any font options was specified,
+such as alignment.</li>
 </ul>
-<p>In addition the command use another new pekwm utility, ekwm_dialog
-inspired by the xmessage command which I will write more about in
-another post.</p>
-<p>Here is a screenshot of the pekwm_theme utility in action with a
-preview of the <a href="https://www.pekwm.se/themes/m0nst4.html">m0nst4</a> theme
-shown in pekwm_dialog:</p>
-<p><img src="../../images/posts/pekwm_theme-utility-1.png" alt="pekwm_theme in action"></p>
-<p>Pressing install will fetch and activate the theme, activation use the
-pekwm_themeset.sh script that drives the Theme menu.</p>
-<p>If you feel brave (or not so brave), fetch pekwm from git and try it
-out. If you have any issues, report them on Github or #pekwm on
-freenode!</p>
+<h3 id="pekwm_panel">pekwm_panel</h3>
+<ul>
+<li>Setup PEKWM_CONFIG_PATH and PEKWM_CONFIG_FILE in the environment of
+pekwm_panel as it is used for icon loading, fixes icon loading issues
+when pekwm_panel started before pekwm.</li>
+<li>Update ClientList on panel start, fixes blank client list until window
+focus is changed.</li>
+<li>Fix text rendering after receiving XRANDR events when using Pango Cairo
+fonts.</li>
+</ul>
 </div>
     </article>
   </main>
