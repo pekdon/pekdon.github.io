@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pekdon.pekwm.se/posts/neovim_to_vim_theme/</loc>
+    <lastmod>2025-09-21T10:29:35+02:00</lastmod>
+  </url><url>
+    <loc>https://pekdon.pekwm.se/</loc>
+    <lastmod>2025-09-21T10:29:35+02:00</lastmod>
+  </url><url>
+    <loc>https://pekdon.pekwm.se/posts/</loc>
+    <lastmod>2025-09-21T10:29:35+02:00</lastmod>
+  </url><url>
     <loc>https://pekdon.pekwm.se/bikes/</loc>
     <lastmod>2025-03-19T14:54:32+01:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/about/</loc>
     <lastmod>2025-03-19T09:58:43+01:00</lastmod>
   </url><url>
-    <loc>https://pekdon.pekwm.se/</loc>
-    <lastmod>2025-03-15T20:12:25+01:00</lastmod>
-  </url><url>
     <loc>https://pekdon.pekwm.se/tags/pekwm/</loc>
     <lastmod>2025-03-15T20:12:25+01:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/posts/pekwm_theme_scaling/</loc>
-    <lastmod>2025-03-15T20:12:25+01:00</lastmod>
-  </url><url>
-    <loc>https://pekdon.pekwm.se/posts/</loc>
     <lastmod>2025-03-15T20:12:25+01:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/tags/</loc>
@@ -49,6 +52,9 @@
   </url><url>
     <loc>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</loc>
     <lastmod>2021-12-19T08:32:30+00:00</lastmod>
+  </url><url>
+    <loc>https://pekdon.pekwm.se/pkgsrc/</loc>
+    <lastmod>2021-12-19T08:29:36+00:00</lastmod>
   </url><url>
     <loc>https://pekdon.pekwm.se/posts/compile_times-gcc-4.8/</loc>
     <lastmod>2021-03-13T22:26:42+00:00</lastmod>

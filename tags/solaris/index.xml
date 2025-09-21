@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>solaris on pekdon</title>
+    <title>Solaris on pekdon</title>
     <link>https://pekdon.pekwm.se/tags/solaris/</link>
-    <description>Recent content in solaris on pekdon</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Solaris on pekdon</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jan 2022 17:19:48 +0000</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/solaris/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 17:19:48 +0000</lastBuildDate>
+    <atom:link href="https://pekdon.pekwm.se/tags/solaris/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solaris Desktop</title>
       <link>https://pekdon.pekwm.se/posts/solaris_desktop/</link>
       <pubDate>Tue, 04 Jan 2022 17:19:48 +0000</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/solaris_desktop/</guid>
-      <description>After I was given a Sun Blade 1500, I started working on getting it setup trying to see if I could use it as a development machine.
-To get software I want compiled I started pkgsrc as there aren&amp;rsquo;t many alternatives other than Ravenports and building everything by hand.
-I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying to get software compiled, even though it was x86_64 most compatability issues are unrelated to the architecture.</description>
+      <description>&lt;p&gt;After I was given a Sun Blade 1500, I started working on getting it setup&#xA;trying to see if I could use it as a development machine.&lt;/p&gt;&#xA;&lt;p&gt;To get software I want compiled I started &lt;a href=&#34;https://pkgsrc.org/&#34;&gt;pkgsrc&lt;/a&gt; as&#xA;there aren&amp;rsquo;t many alternatives other than&#xA;&lt;a href=&#34;http://www.ravenports.com/&#34;&gt;Ravenports&lt;/a&gt; and building everything by hand.&lt;/p&gt;&#xA;&lt;p&gt;I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying&#xA;to get software compiled, even though it was x86_64 most compatability issues&#xA;are unrelated to the architecture.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sun Blade 1500 on Solaris 10</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</link>
       <pubDate>Sun, 19 Dec 2021 08:32:30 +0000</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</guid>
-      <description>A while back I was fortunate enough to be given a Sun Blade 1500 from a long time pekwm user.
-It is, by todays standards, old and slow making it perfect for experiencing how pekwm actually performs. Also, running Solaris 10, being big endian and using Xsun instead of a current Xorg server makes it perfect to find odd issues.
-I had a few issues with getting machine up and running, the PSU and harddrive experienced some post storage issues.</description>
+      <description>&lt;p&gt;A while back I was fortunate enough to be given a Sun Blade 1500 from a&#xA;long time pekwm user.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/posts/pekwm_on_solaris10-blade-1500.jpg&#34; alt=&#34;Sun Blade 1500&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is, by todays standards, old and slow making it perfect for experiencing&#xA;how pekwm actually performs. Also, running Solaris 10, being big endian and&#xA;using Xsun instead of a current Xorg server makes it perfect to find odd&#xA;issues.&lt;/p&gt;&#xA;&lt;p&gt;I had a few issues with getting machine up and running, the PSU and harddrive&#xA;experienced some post storage issues. The PSU magically got back to life after&#xA;trying another PSU out, harddrive got replaced. When that was all sorted out&#xA;trying pekwm out to see if there was any issues.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

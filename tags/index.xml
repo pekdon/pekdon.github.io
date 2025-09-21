@@ -4,44 +4,37 @@
     <title>Tags on pekdon</title>
     <link>https://pekdon.pekwm.se/tags/</link>
     <description>Recent content in Tags on pekdon</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Mar 2025 20:12:25 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Mar 2025 20:12:25 +0100</lastBuildDate>
+    <atom:link href="https://pekdon.pekwm.se/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>pekwm</title>
+      <title>Pekwm</title>
       <link>https://pekdon.pekwm.se/tags/pekwm/</link>
       <pubDate>Sat, 15 Mar 2025 20:12:25 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/tags/pekwm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>themes</title>
+      <title>Themes</title>
       <link>https://pekdon.pekwm.se/tags/themes/</link>
       <pubDate>Sat, 15 Mar 2025 20:12:25 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/tags/themes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pkgsrc</title>
+      <title>Pkgsrc</title>
       <link>https://pekdon.pekwm.se/tags/pkgsrc/</link>
       <pubDate>Tue, 04 Jan 2022 17:19:48 +0000</pubDate>
-      
       <guid>https://pekdon.pekwm.se/tags/pkgsrc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>solaris</title>
+      <title>Solaris</title>
       <link>https://pekdon.pekwm.se/tags/solaris/</link>
       <pubDate>Tue, 04 Jan 2022 17:19:48 +0000</pubDate>
-      
       <guid>https://pekdon.pekwm.se/tags/solaris/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

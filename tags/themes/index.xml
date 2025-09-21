@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>themes on pekdon</title>
+    <title>Themes on pekdon</title>
     <link>https://pekdon.pekwm.se/tags/themes/</link>
-    <description>Recent content in themes on pekdon</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Themes on pekdon</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Mar 2025 20:12:25 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Mar 2025 20:12:25 +0100</lastBuildDate>
+    <atom:link href="https://pekdon.pekwm.se/tags/themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pekwm theme scaling</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_theme_scaling/</link>
       <pubDate>Sat, 15 Mar 2025 20:12:25 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_theme_scaling/</guid>
-      <description>Got the question if pekwm supported HiDPI display, or theme scaling more specifically, and as it did not I got excited about it and started implementing theme scaling for pekwm and its shipped tools.
-A single scaling setting in the Screen section controls the scaling:
-Screen { Scale = &amp;#34;2.0&amp;#34; } If the factor is an integer, pixels are scaled to 4, 9, 16 etc pixels without any scaling artifacts. It is possible to specify 1.</description>
+      <description>&lt;p&gt;Got the question if pekwm supported HiDPI display, or theme scaling more&#xA;specifically, and as it did not I got excited about it and started&#xA;implementing theme scaling for pekwm and its shipped tools.&lt;/p&gt;&#xA;&lt;p&gt;A single scaling setting in the &lt;code&gt;Screen&lt;/code&gt; section controls the scaling:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Screen {&#xA;    Scale = &amp;#34;2.0&amp;#34;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If the factor is an integer, pixels are scaled to 4, 9, 16 etc pixels&#xA;without any scaling artifacts. It is possible to specify 1.5 but scaling&#xA;result will not be as clean.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm daytime</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_daytime/</link>
       <pubDate>Sun, 16 Feb 2025 19:27:11 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_daytime/</guid>
-      <description>Most (desktop) environments these days have support for both a light and dark mode and during the winter semester the changes in ambient lighting is quite dramatic during the day and so this is something I&amp;rsquo;ve been wanting to have in pekwm not having to do it manually.
-During the summer semester, there&amp;rsquo;s virtually no need for me as it is mostly bright outside during the hours I&amp;rsquo;m awake.
-Anyway, pekwm has gotten a new optional component, pekwm_sys that is configured in the new Sys section of the main config file.</description>
+      <description>&lt;p&gt;Most (desktop) environments these days have support for both a light and dark&#xA;mode and during the winter semester the changes in ambient lighting is quite&#xA;dramatic during the day and so this is something I&amp;rsquo;ve been wanting to have in&#xA;pekwm not having to do it manually.&lt;/p&gt;&#xA;&lt;p&gt;During the summer semester, there&amp;rsquo;s virtually no need for me as it is mostly&#xA;bright outside during the hours I&amp;rsquo;m awake.&lt;/p&gt;&#xA;&lt;p&gt;Anyway, pekwm has gotten a new optional component, pekwm_sys that is&#xA;configured in the new &lt;code&gt;Sys&lt;/code&gt; section of the main config file.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm and pywal</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_pywal/</link>
       <pubDate>Sat, 21 Jan 2023 10:21:19 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_pywal/</guid>
-      <description>A friend of mine asked me if it was possible to use pywal together with pekwm a while back.
-pywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.
-Me, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources.</description>
+      <description>&lt;p&gt;A friend of mine asked me if it was possible to use&#xA;&lt;a href=&#34;https://github.com/dylanaraps/pywal&#34;&gt;pywal&lt;/a&gt; together with pekwm a while back.&lt;/p&gt;&#xA;&lt;p&gt;pywal is a tool that generates a color scheme from the dominant colors in&#xA;an image. Amongst other things, the color scheme is set in Xresources.&lt;/p&gt;&#xA;&lt;p&gt;Me, being unaware of what pywal was at that time, looked into it and figured&#xA;a good way of supporting it would be to allow for pekwm to read color&#xA;information from Xresources.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

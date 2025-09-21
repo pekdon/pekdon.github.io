@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+    
+      <title>neovim (lua) to vim theme | pekdon</title>
+    
+  
+  <link rel="stylesheet" href="/css/reset.css"/>
+  <link rel="stylesheet" href="/css/smigle.css"/>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+  <body>
+    <div id="root">
+      <header>
+  <div id="brand">
+    <a class="icon-link" href="https://pekdon.pekwm.se/">
+      <img
+        class="icon"
+        src="/images/brandIcon.svg"
+      />
+    </a>
+    <div class="text">
+      <a href="https://pekdon.pekwm.se/"><h1>pekdon</h1></a>
+      <h3>ramblings of a northern geek</h3>
+    </div>
+  </div>
+  <nav>
+    
+      
+        
+        <a href="/posts/"><b>Posts</b></a>
+      
+         | 
+        <a href="/tags/"><b>Tags</b></a>
+      
+         | 
+        <a href="/about/"><b>About</b></a>
+      
+         | 
+        <a href="/bikes/"><b>Bikes</b></a>
+      
+    
+  </nav>
+  <hr />
+</header>
+
+      <div id="content">
+        
+  <main>
+    <article>
+      <h1 class="title">neovim (lua) to vim theme</h1>
+      
+      <div class="post-meta">
+  <strong>
+    <span>Posted on</span>
+    <time>2025-09-21 10:29:35</time>
+    
+    
+  </strong>
+  <span> • 151 words</span>
+  <span> • 1 minute read</span>
+  
+  
+</div>
+
+      <div class="content"><p>Using neovim on older systems the performance hit it comes with compared to vim
+is noticeable so I tend to use vim. This comes with a number of drawbacks, one
+of them being that a lot of current themes are for neovim only, and in lua
+format at that.</p>
+<p>To work around this I created a simple script to generate a <code>.vim</code> file out
+of a lua theme directory.</p>
+<p>Want to try it out? These are the steps:</p>
+<p>Fetch and make the conversion script executable (requires lua5.1):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ curl -O https://pekdon.pekwm.se/files/lua_to_vim_theme.lua
+</span></span><span style="display:flex;"><span>$ chmod +x lua_to_vim_theme.lua
+</span></span></code></pre></div><p>Then grab a theme, in this example the vscode theme by Mofiqul is used:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ git clone https://github.com/Mofiqul/vscode.nvim.git
+</span></span></code></pre></div><p>And finally, convert and save it to <code>.vim</code> and place it in your colors
+directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ mkdir -p ~/.vim/colors
+</span></span><span style="display:flex;"><span>$ ./lua_to_vim_theme.lua vscode.nvim/lua/vscode &gt; ~/.vim/colors/vscode.vim
+</span></span></code></pre></div><p>Now, you should be able to activate the new theme from with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span>:<span style="color:#66d9ef">colorscheme</span> <span style="color:#a6e22e">vscode</span>
+</span></span></code></pre></div></div>
+    </article>
+  </main>
+
+      </div>
+      <footer>
+  <hr />
+  
+  <p class="copyright">
+    Copyright © 2025
+    <a href="https://pekdon.pekwm.se/"><strong>Claes Nästén</strong></a>.
+    This work is licensed under the
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license.
+  </p>
+  <p class="builtWith">
+    Built with
+    <a href="http://www.gohugo.io/">Hugo</a>,
+    using the theme
+    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme">smigle</a>,
+    which was influenced by the theme
+    <a href="https://github.com/sumnerevans/smol">smol</a>.
+  </p>
+</footer>
+
+    </div>
+  </body>
+</html>

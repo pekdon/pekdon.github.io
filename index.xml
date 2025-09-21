@@ -4,160 +4,114 @@
     <title>pekdon</title>
     <link>https://pekdon.pekwm.se/</link>
     <description>Recent content on pekdon</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Mar 2025 20:12:25 +0100</lastBuildDate><atom:link href="https://pekdon.pekwm.se/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Sep 2025 10:29:35 +0200</lastBuildDate>
+    <atom:link href="https://pekdon.pekwm.se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>neovim (lua) to vim theme</title>
+      <link>https://pekdon.pekwm.se/posts/neovim_to_vim_theme/</link>
+      <pubDate>Sun, 21 Sep 2025 10:29:35 +0200</pubDate>
+      <guid>https://pekdon.pekwm.se/posts/neovim_to_vim_theme/</guid>
+      <description>&lt;p&gt;Using neovim on older systems the performance hit it comes with compared to vim&#xA;is noticeable so I tend to use vim. This comes with a number of drawbacks, one&#xA;of them being that a lot of current themes are for neovim only, and in lua&#xA;format at that.&lt;/p&gt;&#xA;&lt;p&gt;To work around this I created a simple script to generate a &lt;code&gt;.vim&lt;/code&gt; file out&#xA;of a lua theme directory.&lt;/p&gt;&#xA;&lt;p&gt;Want to try it out? These are the steps:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bikes</title>
       <link>https://pekdon.pekwm.se/bikes/</link>
       <pubDate>Wed, 19 Mar 2025 14:54:32 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/bikes/</guid>
-      <description>My bikes, mostly for me to keep track of what the current configuration is.
-Fizzy Pop Aliexpress frame, wheels and saddle paired with more &amp;ldquo;standard&amp;rdquo; components.
-Frame: BXT Gravel-135 (XL) Saddle: Ryet Carbon Handlebars: Easton AX EA70 (42cm) Groupset: SRAM Apex XPLR Wheels: CSC Carbon Wheels (35mm deep) Tyres: Specialized Pathfinder Pro (42mm) Superior X-Road Comp 2018 The only parts left since it was bought is the frame (repainted) and handlebars.</description>
+      <description>&lt;p&gt;My bikes, mostly for me to keep track of what the current configuration is.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fizzy-pop&#34;&gt;Fizzy Pop&lt;/h2&gt;&#xA;&lt;p&gt;Aliexpress frame, wheels and saddle paired with more &amp;ldquo;standard&amp;rdquo; components.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Frame: BXT Gravel-135 (XL)&lt;/li&gt;&#xA;&lt;li&gt;Saddle: Ryet Carbon&lt;/li&gt;&#xA;&lt;li&gt;Handlebars: Easton AX EA70 (42cm)&lt;/li&gt;&#xA;&lt;li&gt;Groupset: SRAM Apex XPLR&lt;/li&gt;&#xA;&lt;li&gt;Wheels: CSC Carbon Wheels (35mm deep)&lt;/li&gt;&#xA;&lt;li&gt;Tyres: Specialized Pathfinder Pro (42mm)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/fizzy_pop.jpg&#34; alt=&#34;Fizzy Pop&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;superior-x-road-comp-2018&#34;&gt;Superior X-Road Comp 2018&lt;/h2&gt;&#xA;&lt;p&gt;The only parts left since it was bought is the frame (repainted) and&#xA;handlebars. The front fork has been converted for use with a 12x100 axle&#xA;instead of 15x100.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://pekdon.pekwm.se/about/</link>
       <pubDate>Wed, 19 Mar 2025 09:58:43 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/about/</guid>
-      <description>
-Software developer from Skellefteå that in his twenties took a detour to Oslo and Drammen, now living in Bureå where he works for Cisco developing Cisco NSO.
-Spare time activites include:
-Family including the dog Nix. pekwm development. Cross country skiing and Gravel riding. </description>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/about.png&#34; alt=&#34;pekdon&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Software developer from Skellefteå that in his twenties took a detour to Oslo&#xA;and Drammen, now living in Bureå where he works for Cisco developing Cisco NSO.&lt;/p&gt;&#xA;&lt;p&gt;Spare time activites include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Family including the dog Nix.&lt;/li&gt;&#xA;&lt;li&gt;pekwm development.&lt;/li&gt;&#xA;&lt;li&gt;Cross country skiing and Gravel riding.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>pekwm theme scaling</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_theme_scaling/</link>
       <pubDate>Sat, 15 Mar 2025 20:12:25 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_theme_scaling/</guid>
-      <description>Got the question if pekwm supported HiDPI display, or theme scaling more specifically, and as it did not I got excited about it and started implementing theme scaling for pekwm and its shipped tools.
-A single scaling setting in the Screen section controls the scaling:
-Screen { Scale = &amp;#34;2.0&amp;#34; } If the factor is an integer, pixels are scaled to 4, 9, 16 etc pixels without any scaling artifacts. It is possible to specify 1.</description>
+      <description>&lt;p&gt;Got the question if pekwm supported HiDPI display, or theme scaling more&#xA;specifically, and as it did not I got excited about it and started&#xA;implementing theme scaling for pekwm and its shipped tools.&lt;/p&gt;&#xA;&lt;p&gt;A single scaling setting in the &lt;code&gt;Screen&lt;/code&gt; section controls the scaling:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Screen {&#xA;    Scale = &amp;#34;2.0&amp;#34;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If the factor is an integer, pixels are scaled to 4, 9, 16 etc pixels&#xA;without any scaling artifacts. It is possible to specify 1.5 but scaling&#xA;result will not be as clean.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm daytime</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_daytime/</link>
       <pubDate>Sun, 16 Feb 2025 19:27:11 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_daytime/</guid>
-      <description>Most (desktop) environments these days have support for both a light and dark mode and during the winter semester the changes in ambient lighting is quite dramatic during the day and so this is something I&amp;rsquo;ve been wanting to have in pekwm not having to do it manually.
-During the summer semester, there&amp;rsquo;s virtually no need for me as it is mostly bright outside during the hours I&amp;rsquo;m awake.
-Anyway, pekwm has gotten a new optional component, pekwm_sys that is configured in the new Sys section of the main config file.</description>
+      <description>&lt;p&gt;Most (desktop) environments these days have support for both a light and dark&#xA;mode and during the winter semester the changes in ambient lighting is quite&#xA;dramatic during the day and so this is something I&amp;rsquo;ve been wanting to have in&#xA;pekwm not having to do it manually.&lt;/p&gt;&#xA;&lt;p&gt;During the summer semester, there&amp;rsquo;s virtually no need for me as it is mostly&#xA;bright outside during the hours I&amp;rsquo;m awake.&lt;/p&gt;&#xA;&lt;p&gt;Anyway, pekwm has gotten a new optional component, pekwm_sys that is&#xA;configured in the new &lt;code&gt;Sys&lt;/code&gt; section of the main config file.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm-0.3.1 released</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_0.3.1_released/</link>
       <pubDate>Sun, 01 Dec 2024 17:50:41 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_0.3.1_released/</guid>
-      <description>First maintenance release in the new 0.3.X series of pekwm releases.
-Closed issues pekwm #170, Reduce flickering when placing new windows. #175, GotoItem N now skips separators and non-visible items. #163, ButtonRelase actions on the Client working again. #161, GotoItem N regression caused it to behave as NextItem. Use X double buffer extension in pekwm_panel and pekwm_dialog to avoid flickering on redraws. X11 font name detection would fail if any font options was specified, such as alignment.</description>
+      <description>&lt;p&gt;First maintenance release in the new 0.3.X series of pekwm releases.&lt;/p&gt;&#xA;&lt;h2 id=&#34;closed-issues&#34;&gt;Closed issues&lt;/h2&gt;&#xA;&lt;h3 id=&#34;pekwm&#34;&gt;pekwm&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;#170, Reduce flickering when placing new windows.&lt;/li&gt;&#xA;&lt;li&gt;#175, GotoItem N now skips separators and non-visible items.&lt;/li&gt;&#xA;&lt;li&gt;#163, ButtonRelase actions on the Client working again.&lt;/li&gt;&#xA;&lt;li&gt;#161, GotoItem N regression caused it to behave as NextItem.&lt;/li&gt;&#xA;&lt;li&gt;Use X double buffer extension in pekwm_panel and pekwm_dialog to avoid&#xA;flickering on redraws.&lt;/li&gt;&#xA;&lt;li&gt;X11 font name detection would fail if any font options was specified,&#xA;such as alignment.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;pekwm_panel&#34;&gt;pekwm_panel&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Setup PEKWM_CONFIG_PATH and PEKWM_CONFIG_FILE in the environment of&#xA;pekwm_panel as it is used for icon loading, fixes icon loading issues&#xA;when pekwm_panel started before pekwm.&lt;/li&gt;&#xA;&lt;li&gt;Update ClientList on panel start, fixes blank client list until window&#xA;focus is changed.&lt;/li&gt;&#xA;&lt;li&gt;Fix text rendering after receiving XRANDR events when using Pango Cairo&#xA;fonts.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>pekwm release history</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_release_history/</link>
       <pubDate>Mon, 23 Jan 2023 20:18:39 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_release_history/</guid>
-      <description>pekwm-0.3.0 has been released and includes quite a bit of changes compared to the previous pekwm-0.2.1 not to speak of whats still in some distributions that being pekwm-0.1.18.
-These releases got me thinking about the impact the release frequency has on software.
-First, lets start of with the not so impressive pekwm release history:
-0.3.0, 2022-01, 13 month since 0.2.1. 0.2.1, 2021-12, 1 month since 0.2.0. 0.2.0, 2021-10, 11 months since 0.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/pekwm/pekwm/releases/tag/release-0.3.0&#34;&gt;pekwm-0.3.0&lt;/a&gt; has&#xA;been released and includes quite a bit of changes compared to the previous&#xA;&lt;a href=&#34;https://github.com/pekwm/pekwm/releases/tag/release-0.2.1&#34;&gt;pekwm-0.2.1&lt;/a&gt; not&#xA;to speak of whats still in some distributions that being&#xA;&lt;a href=&#34;https://github.com/pekwm/pekwm/releases/tag/release-0.1.18&#34;&gt;pekwm-0.1.18&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;These releases got me thinking about the impact the release frequency has on software.&lt;/p&gt;&#xA;&lt;p&gt;First, lets start of with the not so impressive pekwm release history:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;0.3.0, 2022-01, 13 month since 0.2.1.&lt;/li&gt;&#xA;&lt;li&gt;0.2.1, 2021-12, 1 month since 0.2.0.&lt;/li&gt;&#xA;&lt;li&gt;0.2.0, 2021-10, 11 months since 0.1.18.&lt;/li&gt;&#xA;&lt;li&gt;0.1.18, 2020-11, 90 months since 0.1.17.&lt;/li&gt;&#xA;&lt;li&gt;0.1.17, 2013-05, 6 months since 0.1.16.&lt;/li&gt;&#xA;&lt;li&gt;0.1.16, 2012-11, 3 months since 0.1.15.&lt;/li&gt;&#xA;&lt;li&gt;0.1.15, 2012-08, 8 months since 0.1.14.&lt;/li&gt;&#xA;&lt;li&gt;0.1.14, 2011-12, 6 months since 0.1.13.&lt;/li&gt;&#xA;&lt;li&gt;0.1.13, 2011-06, 14 months since 0.1.12.&lt;/li&gt;&#xA;&lt;li&gt;0.1.12, 2010-03, 10 months since 0.1.11.&lt;/li&gt;&#xA;&lt;li&gt;0.1.11, 2009-05, 4 months since 0.1.10.&lt;/li&gt;&#xA;&lt;li&gt;0.1.10, 2009-01, 1 month since 0.1.9.&lt;/li&gt;&#xA;&lt;li&gt;0.1.9, 2008-12, 2 months since 0.1.8.&lt;/li&gt;&#xA;&lt;li&gt;0.1.8, 2008-10, 2 months since 0.1.7.&lt;/li&gt;&#xA;&lt;li&gt;0.1.7, 2008-08, 15 months since 0.1.6.&lt;/li&gt;&#xA;&lt;li&gt;0.1.6, 2007-05, 13 months since 0.1.5.&lt;/li&gt;&#xA;&lt;li&gt;0.1.5, 2006-04, 2 months since 0.1.4.&lt;/li&gt;&#xA;&lt;li&gt;0.1.4, 2006-02, 32 months since 0.1.3.&lt;/li&gt;&#xA;&lt;li&gt;0.1.3, 2003-06, 8 months since 0.1.2.&lt;/li&gt;&#xA;&lt;li&gt;0.1.2, 2002-10, 4 days since 0.1.1.&lt;/li&gt;&#xA;&lt;li&gt;0.1.1, 2002-10, second pekwm release.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;As the above list shows, the release frequency have been quite irregular to&#xA;say the least and having releases drag behind have caused a lot of users&#xA;having to run the development version for a smooth experience.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm and pywal</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_pywal/</link>
       <pubDate>Sat, 21 Jan 2023 10:21:19 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_pywal/</guid>
-      <description>A friend of mine asked me if it was possible to use pywal together with pekwm a while back.
-pywal is a tool that generates a color scheme from the dominant colors in an image. Amongst other things, the color scheme is set in Xresources.
-Me, being unaware of what pywal was at that time, looked into it and figured a good way of supporting it would be to allow for pekwm to read color information from Xresources.</description>
+      <description>&lt;p&gt;A friend of mine asked me if it was possible to use&#xA;&lt;a href=&#34;https://github.com/dylanaraps/pywal&#34;&gt;pywal&lt;/a&gt; together with pekwm a while back.&lt;/p&gt;&#xA;&lt;p&gt;pywal is a tool that generates a color scheme from the dominant colors in&#xA;an image. Amongst other things, the color scheme is set in Xresources.&lt;/p&gt;&#xA;&lt;p&gt;Me, being unaware of what pywal was at that time, looked into it and figured&#xA;a good way of supporting it would be to allow for pekwm to read color&#xA;information from Xresources.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Solaris Desktop</title>
       <link>https://pekdon.pekwm.se/posts/solaris_desktop/</link>
       <pubDate>Tue, 04 Jan 2022 17:19:48 +0000</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/solaris_desktop/</guid>
-      <description>After I was given a Sun Blade 1500, I started working on getting it setup trying to see if I could use it as a development machine.
-To get software I want compiled I started pkgsrc as there aren&amp;rsquo;t many alternatives other than Ravenports and building everything by hand.
-I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying to get software compiled, even though it was x86_64 most compatability issues are unrelated to the architecture.</description>
+      <description>&lt;p&gt;After I was given a Sun Blade 1500, I started working on getting it setup&#xA;trying to see if I could use it as a development machine.&lt;/p&gt;&#xA;&lt;p&gt;To get software I want compiled I started &lt;a href=&#34;https://pkgsrc.org/&#34;&gt;pkgsrc&lt;/a&gt; as&#xA;there aren&amp;rsquo;t many alternatives other than&#xA;&lt;a href=&#34;http://www.ravenports.com/&#34;&gt;Ravenports&lt;/a&gt; and building everything by hand.&lt;/p&gt;&#xA;&lt;p&gt;I also got myself (a now dead) Sun Ultra 40 reducing wait times while trying&#xA;to get software compiled, even though it was x86_64 most compatability issues&#xA;are unrelated to the architecture.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sun Blade 1500 on Solaris 10</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</link>
       <pubDate>Sun, 19 Dec 2021 08:32:30 +0000</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_on_solaris10/</guid>
-      <description>A while back I was fortunate enough to be given a Sun Blade 1500 from a long time pekwm user.
-It is, by todays standards, old and slow making it perfect for experiencing how pekwm actually performs. Also, running Solaris 10, being big endian and using Xsun instead of a current Xorg server makes it perfect to find odd issues.
-I had a few issues with getting machine up and running, the PSU and harddrive experienced some post storage issues.</description>
+      <description>&lt;p&gt;A while back I was fortunate enough to be given a Sun Blade 1500 from a&#xA;long time pekwm user.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../../images/posts/pekwm_on_solaris10-blade-1500.jpg&#34; alt=&#34;Sun Blade 1500&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is, by todays standards, old and slow making it perfect for experiencing&#xA;how pekwm actually performs. Also, running Solaris 10, being big endian and&#xA;using Xsun instead of a current Xorg server makes it perfect to find odd&#xA;issues.&lt;/p&gt;&#xA;&lt;p&gt;I had a few issues with getting machine up and running, the PSU and harddrive&#xA;experienced some post storage issues. The PSU magically got back to life after&#xA;trying another PSU out, harddrive got replaced. When that was all sorted out&#xA;trying pekwm out to see if there was any issues.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Compile times, GCC 4.8</title>
       <link>https://pekdon.pekwm.se/posts/compile_times-gcc-4.8/</link>
       <pubDate>Sat, 13 Mar 2021 22:26:42 +0000</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/compile_times-gcc-4.8/</guid>
-      <description>My main development machine at the moment is a ~7 year old Lenovo T440s laptop which is more than snappy enough for my needs but it is starting to show its age when it comes to some of the more javascript intensive web sites and when compiling software.
-Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that GCC-4.8 was available. Given that GCC 4.8 being the first GCC release stating support for most major features of C++11 I thought it was worth giving it a go to see how the compile times compare with the system compiler, clang 11.</description>
+      <description>&lt;p&gt;My main development machine at the moment is a ~7 year old Lenovo&#xA;T440s laptop which is more than snappy enough for my needs but it is&#xA;starting to show its age when it comes to some of the more javascript&#xA;intensive web sites and when compiling software.&lt;/p&gt;&#xA;&lt;p&gt;Moving from OpenBSD to FreeBSD trying the 13 BETA out I noticed that&#xA;GCC-4.8 was available. Given that GCC 4.8 being the first GCC release&#xA;stating support for most major features of C++11 I thought it was&#xA;worth giving it a go to see how the compile times compare with the&#xA;system compiler, clang 11.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm_panel in the works!</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_panel/</link>
       <pubDate>Tue, 23 Feb 2021 21:37:40 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_panel/</guid>
-      <description>After rebooting the pekwm development, the activity from users on Github page has increased and in one of the recent issues a comment was added noting that it was hard to know iconified windows exist.
-The seasoned users know of the Icon menu, however, as a new pekwm user it is less than obvious how one should know the iconfied windows exist. As it was noted this was not a problem in other environments where a panel is available listing all clients I decided to create a pekwm_panel.</description>
+      <description>&lt;p&gt;After rebooting the pekwm development, the activity from users on&#xA;Github page has increased and in one of the recent issues a comment&#xA;was added noting that it was hard to know iconified windows exist.&lt;/p&gt;&#xA;&lt;p&gt;The seasoned users know of the &lt;strong&gt;Icon&lt;/strong&gt; menu, however, as a new pekwm&#xA;user it is less than obvious how one should know the iconfied windows&#xA;exist. As it was noted this was not a problem in other environments&#xA;where a panel is available listing all clients I decided to create a&#xA;&lt;strong&gt;pekwm_panel&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>0.2.0 theme updates</title>
       <link>https://pekdon.pekwm.se/posts/0.2.0-theme-updates/</link>
       <pubDate>Tue, 09 Feb 2021 21:40:39 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/0.2.0-theme-updates/</guid>
-      <description>pekwm-0.2.0 will bring a couple of noticeable improvements to the theme system including:
-Backgrounds ColorMaps Variants This post will describe what these features do and how to use them.
-Backgrounds It is now possible to set the background with the theme using the new Background section in the theme file. All pekwm textures are supported including the new LinesVert and LinesHorz textures. For a full list of textures, see the themes documentation.</description>
+      <description>&lt;p&gt;pekwm-0.2.0 will bring a couple of noticeable improvements to the&#xA;theme system including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Backgrounds&lt;/li&gt;&#xA;&lt;li&gt;ColorMaps&lt;/li&gt;&#xA;&lt;li&gt;Variants&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This post will describe what these features do and how to use them.&lt;/p&gt;&#xA;&lt;h2 id=&#34;backgrounds&#34;&gt;Backgrounds&lt;/h2&gt;&#xA;&lt;p&gt;It is now possible to set the background with the theme using the new&#xA;&lt;em&gt;Background&lt;/em&gt; section in the theme file. All pekwm textures are&#xA;supported including the new &lt;em&gt;LinesVert&lt;/em&gt; and &lt;em&gt;LinesHorz&lt;/em&gt; textures. For&#xA;a full list of textures, see the &lt;a href=&#34;https://github.com/pekdon/pekwm/blob/master/doc/themes.md#textures&#34;&gt;themes&#xA;documentation&lt;/a&gt;.&#xA;Image textures are loaded from the &lt;em&gt;backgrounds&lt;/em&gt; folder within the&#xA;theme directory.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm_theme utility</title>
       <link>https://pekdon.pekwm.se/posts/pekwm_theme-utility/</link>
       <pubDate>Wed, 03 Feb 2021 18:47:28 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm_theme-utility/</guid>
-      <description>As part of getting pekwm back on track the infrastructure for a theme index has started to take shape with the following components:
-pekwm-theme-index, a repository on GitHub with a collection of theme files containing meta-data about themes. pekwm-theme-page, the page and screenshot generator for https://www.pekwm.se/themes/ based on the data from pekwm-theme-index. pekwm_theme, shell script included with pekwm for managing user themes. This post focus on the last component in the list above, the user command for managing themes.</description>
+      <description>&lt;p&gt;As part of getting pekwm back on track the infrastructure for a theme&#xA;index has started to take shape with the following components:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/pekwm/pekwm-theme-index/&#34;&gt;pekwm-theme-index&lt;/a&gt;, a repository on GitHub with a collection of theme files containing meta-data about themes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;pekwm-theme-page&lt;/strong&gt;, the page and screenshot generator for &lt;a href=&#34;https://www.pekwm.se/themes/&#34;&gt;https://www.pekwm.se/themes/&lt;/a&gt; based on the data from pekwm-theme-index.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;pekwm_theme&lt;/strong&gt;, shell script included with pekwm for managing user themes.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This post focus on the last component in the list above, the user&#xA;command for managing themes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>pekwm development reboot</title>
       <link>https://pekdon.pekwm.se/posts/pekwm-development-reboot/</link>
       <pubDate>Sun, 31 Jan 2021 12:33:11 +0100</pubDate>
-      
       <guid>https://pekdon.pekwm.se/posts/pekwm-development-reboot/</guid>
-      <description>The pekwm development has been non-existent the last couple of years and before that it has been very slow for many years. Many reasons behind this including but not limited to not using a Linux machine at work, life has been busy and a lack of interest.
-My interest has come back, I&amp;rsquo;ve gotten myself an &amp;ldquo;old&amp;rdquo; Lenovo T440S running OpenBSD at home and started working on pekwm again.
-To be able to spend more time on actual development and not maintain infrastructure and what-not there has been some changes:</description>
+      <description>&lt;p&gt;The pekwm development has been non-existent the last couple of years&#xA;and before that it has been very slow for many years. Many reasons&#xA;behind this including but not limited to not using a Linux machine at&#xA;work, life has been busy and a lack of interest.&lt;/p&gt;&#xA;&lt;p&gt;My interest has come back, I&amp;rsquo;ve gotten myself an &amp;ldquo;old&amp;rdquo; Lenovo T440S&#xA;running OpenBSD at home and started working on pekwm again.&lt;/p&gt;&#xA;&lt;p&gt;To be able to spend more time on actual development and not maintain&#xA;infrastructure and what-not there has been some changes:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
